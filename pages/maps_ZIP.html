@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- d3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"
+            integrity="sha512-M7nHCiNUOwFt6Us3r8alutZLm9qMt4s9951uo8jqO4UwJ1hziseL6O3ndFyigx6+LREfZqnhHxYjKRJ8ZQ69DQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        .map {
+            width: 34%;
+            height: 34%;
+        }
+
+        .ml {
+            float: left
+        }
+
+        .mr {
+            float: right
+        }
+
+        .tab {
+            width: 32%;
+            height: 100%;
+            float: left;
+        }
+    </style>
+    <title>Memphis Poverty and Race</title>
+</head>
+<body>
+<h1 style="text-align: center">Memphis Poverty and Race</h1>
+<label for="year">Year:</label>
+<select id="year" onchange="redrawMap()">
+    <option value="2020" selected="selected">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+</select>
+<!-- Plotly chart will be drawn inside this DIV -->
+<div id="pMap" class="map ml"></div>
+<div id="rMap" class="map mr"></div>
+<div id="myTab" class="tab"></div>
+<script>
+    let fig = []
+    let dat = []
+    let x = []
+    let yp = []
+    let yr = []
+
+    Plotly.d3.json('/maps/Shelby_ZCTA.geojson', function (e, f) {
+        fig = f
+        Plotly.d3.csv("/data/Race_Poverty.csv", function (d) {
+            dat = d
+            drawMap(dat, fig, '2020')
+        })
+    })
+
+    function drawMap(d, f, year) {
+        var pData = year + '_Poverty';
+        var rData = year + '_Race';
+        d.forEach((row) => {
+            if (row.ZIP !== 'ZIP') {
+                x.push(row.ZIP);
+                yp.push(row[pData]);
+                yr.push(row[rData]);
+            }
+        })
+
+        var counties1 = [{
+            type: 'choropleth',
+            geojson: f,
+            featureidkey: 'properties.GEOID20',
+            locations: x,
+            z: yp,
+            colorscale: 'Portland',
+            colorbar: {
+                autotic: false,
+                ticksuffix: '%',
+                title: 'Poverty Rate'
+            }
+        }];
+
+        var counties2 = [{
+            type: 'choropleth',
+            geojson: f,
+            featureidkey: 'properties.GEOID20',
+            locations: x,
+            z: yr,
+            colorscale: 'Portland',
+            colorbar: {
+                autotic: false,
+                ticksuffix: '%',
+                title: 'Percent Non-White'
+            }
+        }];
+
+        var table = [{
+            type: 'table',
+            header: {
+                values: [["<b>ZIP</b>"], ["<b>Poverty Rate</b>"],
+                    ["<b>Percent Non-White</b>"]],
+                align: "center",
+                line: {width: 1, color: 'black'},
+                fill: {color: "grey"},
+                font: {family: "Arial", size: 16, color: "white"}
+            },
+            cells: {
+                values: [x, yp, yr],
+                align: "center",
+                line: {color: "black", width: 1},
+                font: {family: "Arial", size: 10, color: ["black"]}
+            }
+        }]
+
+        var pMapLayout = {
+            title: year + ' Poverty ZIP Code',
+            geo: {
+                fitbounds: 'locations'
+            }
+        };
+
+        var rMapLayout = {
+            title: year + ' Race ZIP Code',
+            geo: {
+                fitbounds: 'locations'
+            }
+        };
+
+        var tabLayout = {
+            height: 1200
+        }
+
+        Plotly.newPlot('pMap', counties1, pMapLayout);
+        Plotly.newPlot('rMap', counties2, rMapLayout);
+        Plotly.newPlot('myTab', table, tabLayout);
+
+    }
+
+    function redrawMap() {
+        x.length = 0
+        yp.length = 0
+        yr.length = 0
+        let year = document.getElementById('year');
+        drawMap(dat, fig, year.value);
+    }
+</script>
+</body>
+</html>
