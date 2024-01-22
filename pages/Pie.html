@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memphis Poverty Fact Sheet</title>
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+            rel="stylesheet"
+    />
+    <!-- d3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"
+            integrity="sha512-M7nHCiNUOwFt6Us3r8alutZLm9qMt4s9951uo8jqO4UwJ1hziseL6O3ndFyigx6+LREfZqnhHxYjKRJ8ZQ69DQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        var rows = [];
+        rows['2020'] = [
+            {
+                "2020 Poverty Rate": "United States",
+                "Overall": "12.8",
+                "Under 18": "17.5",
+                "Adult (18-59)": "12.2",
+                "Senior (60+)": "9.7",
+                "Non-Hispanic White": "9.3",
+                "Black": "22.1",
+                "Latino": "18.3",
+                "Asian": "10.6"
+            },
+            {
+                "2020 Poverty Rate": "Tennessee",
+                "Overall": "14.6",
+                "Under 18": "20.8",
+                "Adult (18-59)": "13.9",
+                "Senior (60+)": "10.1",
+                "Non-Hispanic White": "11.6",
+                "Black": "24.3",
+                "Latino": "24.5",
+                "Asian": "10.1"
+            },
+            {
+                "2020 Poverty Rate": "Shelby County",
+                "Overall": "19",
+                "Under 18": "29.9",
+                "Adult (18-59)": "16.5",
+                "Senior (60+)": "11.9",
+                "Non-Hispanic White": "7.8",
+                "Black": "26.2",
+                "Latino": "25",
+                "Asian": "10"
+            },
+            {
+                "2020 Poverty Rate": "Memphis city, Tennessee",
+                "Overall": "24.6",
+                "Under 18": "39.6",
+                "Adult (18-59)": "21.1",
+                "Senior (60+)": "15.3",
+                "Non-Hispanic White": "11.3",
+                "Black": "29.5",
+                "Latino": "29.3",
+                "Asian": "17.1"
+            },
+            {
+                "2020 Poverty Rate": "Memphis, TN-MS-AR Metro",
+                "Overall": "17.3",
+                "Under 18": "27.2",
+                "Adult (18-59)": "15.2",
+                "Senior (60+)": "10.8",
+                "Non-Hispanic White": "8.1",
+                "Black": "25.3",
+                "Latino": "24.5",
+                "Asian": "9.3"
+            }
+        ];
+        rows['2021'] = [
+            {
+                "2021 Poverty Rate": "United States",
+                "Overall": "12.8",
+                "Under 18": "16.9",
+                "18-64": "11.9",
+                "Over 65": "10.3",
+                "Non-Hispanic White": "9.5",
+                "Black": "21.8",
+                "Latino": "17.5",
+                "Asian": "10.2"
+            },
+            {
+                "2021 Poverty Rate": "Tennessee",
+                "Overall": "13.6",
+                "Under 18": "18.1",
+                "18-64": "13",
+                "Over 65": "10.2",
+                "Non-Hispanic White": "11.1",
+                "Black": "22.2",
+                "Latino": "20.2",
+                "Asian": "11.1"
+            },
+            {
+                "2021 Poverty Rate": "Shelby County",
+                "Overall": "17.9",
+                "Under 18": "24.1",
+                "18-64": "16.1",
+                "Over 65": "14.6",
+                "Non-Hispanic White": "7.6",
+                "Black": "23.8",
+                "Latino": "27.2",
+                "Asian": "7.4"
+            },
+            {
+                "2021 Poverty Rate": "Memphis city, Tennessee",
+                "Overall": "22.6",
+                "Under 18": "32.7",
+                "18-64": "19.7",
+                "Over 65": "16.8",
+                "Non-Hispanic White": "10.3",
+                "Black": "26.5",
+                "Latino": "27.5",
+                "Asian": "7.7"
+            },
+            {
+                "2021 Poverty Rate": "Memphis, TN-MS-AR Metro",
+                "Overall": "16.9",
+                "Under 18": "22.9",
+                "18-64": "15.2",
+                "Over 65": "13.7",
+                "Non-Hispanic White": "7.7",
+                "Black": "24",
+                "Latino": "28.2",
+                "Asian": "7.2"
+            }
+        ];
+        rows['2022'] = [
+            {
+                "2022 Poverty Rate": "United States",
+                "Overall": "12.6",
+                "Under 18": "16.3",
+                "18-64": "11.7",
+                "Over 65": "10.9",
+                "White": "9.9",
+                "Black": "21.3",
+                "Latino": "16.8",
+                "Asian": "10.1"
+            },
+            {
+                "2022 Poverty Rate": "Tennessee",
+                "Overall": "13.3",
+                "Under 18": "17.6",
+                "18-64": "12.4",
+                "Over 65": "11",
+                "White": "10.9",
+                "Black": "21",
+                "Latino": "20",
+                "Asian": "8.7"
+            },
+            {
+                "2022 Poverty Rate": "Shelby County",
+                "Overall": "16.5",
+                "Under 18": "23.7",
+                "18-64": "14.5",
+                "Over 65": "12.8",
+                "White": "8.1",
+                "Black": "21.7",
+                "Latino": "19.4",
+                "Asian": "N/A"
+            },
+            {
+                "2022 Poverty Rate": "Memphis city, Tennessee",
+                "Overall": "21.4",
+                "Under 18": "32.7",
+                "18-64": "18.3",
+                "Over 65": "15.7",
+                "White": "12.2",
+                "Black": "24.7",
+                "Latino": "22.7",
+                "Asian": "N/A"
+            },
+            {
+                "2022 Poverty Rate": "Memphis, TN-MS-AR Metro",
+                "Overall": "15.7",
+                "Under 18": "22.4",
+                "18-64": "13.8",
+                "Over 65": "12.2",
+                "White": "8",
+                "Black": "18.3",
+                "Latino": "17",
+                "Asian": "N/A"
+            }
+        ];
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.gmbs-consulting.com/">GMBS Consulting</a>
+        <button
+                data-mdb-collapse-init
+                class="navbar-toggler"
+                type="button"
+                data-mdb-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html" data-text="home">home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-text="archives">archives</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-text="tags">tags</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-text="categories">categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-text="about">about</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Table_1.html">Table 1</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./Pie.html">Pie</a></li>
+                <li class="nav-item"><a class="nav-link" href="./maps_ZIP.html">Maps</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<label for="year">Year: </label>
+<select id="year" onchange="loadData()">
+    <option value="2020" selected="selected">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+</select>
+<h1>Percent of the Population in Poverty</h1>
+<div id="pie0" style="float: left; clear: left; margin-left: 10%"></div>
+<div id="pie1" style="float: right; clear: right; margin-right: 10%"></div>
+<div id="pie2" style="float: left; clear: left; margin-left: 10%"></div>
+<div id="pie3" style="float: right; clear: right; margin-right: 10%"></div>
+<!-- MDB -->
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+></script>
+<script>
+    function loadData() {
+        let year = document.getElementById('year');
+        let yv = year.value;
+        let allValues = rows[yv];
+        let data = [];
+        let layout = [];
+        for (let i = 0; i < 4; i++) {
+            let av = allValues[i];
+            let overall = Math.round(av['Overall']);
+            let firstCol =  year.value + ' Poverty Rate';
+            let title = av[firstCol]
+            data[i] = [{
+                values: [100 - overall, overall],
+                labels: ["Above Poverty Line", ["Below Poverty Line"]],
+                type: 'pie',
+                name: title,
+                marker: {
+                    colors: ['blue', 'red']
+                },
+                textfont: {
+                    family: 'Arial Bold',
+                    size: 24
+                },
+                hoverinfo: 'label+percent+name'
+            }];
+
+            layout[i] = {
+                height: 400,
+                width: 500,
+                title: title
+            };
+        }
+        Plotly.newPlot('pie0', data[0], layout[0]);
+        Plotly.newPlot('pie1', data[1], layout[1]);
+        Plotly.newPlot('pie2', data[2], layout[2]);
+        Plotly.newPlot('pie3', data[3], layout[3]);
+    }
+
+    loadData();
+</script>
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+></script>
+</body>
+</html>
