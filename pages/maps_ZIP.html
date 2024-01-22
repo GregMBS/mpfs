@@ -25,11 +25,9 @@
         .map {
             width: 45%;
             height: 45%;
-        }
-
-        .mr {
             float: right;
             clear: right;
+            margin-right: 5%
         }
 
         .tab {
@@ -38,7 +36,7 @@
             float: left;
             clear: left;
             padding: 0;
-            margin: 0;
+            margin-left: 5%;
         }
     </style>
     <title>Memphis Poverty and Race</title>
@@ -80,8 +78,8 @@
 </select>
 <!-- Plotly chart will be drawn inside this DIV -->
 <div id="myTab" class="tab"></div>
-<div id="pMap" class="map mr"></div>
-<div id="rMap" class="map mr"></div>
+<div id="pMap" class="map"></div>
+<div id="rMap" class="map"></div>
 <script>
     let fig = []
     let dat = []
@@ -169,8 +167,8 @@
         };
 
         var tabLayout = {
-            responsive: true,
-            autosize: true
+            height: 1000,
+            responsive: true
         }
 
         Plotly.newPlot('pMap', counties1, pMapLayout);
