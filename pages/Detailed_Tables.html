@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memphis Poverty Fact Sheet</title>
+    <!-- Font Awesome -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+            rel="stylesheet"
+    />
+    <script>
+        var rows = [];
+        rows['2020'] = [];
+        rows['2021'] = [
+            {
+                "Geography": "United States",
+                "Year": 2021,
+                "Category": "Overall Poverty Rate",
+                "Overall": "12.8%",
+                "Non-Hispanic White": "9.5%",
+                "Black": "21.8%",
+                "Latino or Hispanic": "17.5%",
+                "Asian": "10.2%",
+                "Native American": "21.3%"
+            },
+            {
+                "Geography": "United States",
+                "Year": 2021,
+                "Category": "Child (Under 18) Poverty rate",
+                "Overall": "16.9%",
+                "Non-Hispanic White": "10.6%",
+                "Black": "31.0%",
+                "Latino or Hispanic": "23.2%",
+                "Asian": "10.3%",
+                "Native American": "27.6%"
+            },
+            {
+                "Geography": "United States",
+                "Year": 2021,
+                "Category": "Adult (18-64) Poverty Rate",
+                "Overall": "11.9%",
+                "Non-Hispanic White": "9.6%",
+                "Black": "19.0%",
+                "Latino or Hispanic": "14.7%",
+                "Asian": "9.6%",
+                "Native American": "19.2%"
+            },
+            {
+                "Geography": "United States",
+                "Year": 2021,
+                "Category": "Senior (65+) Poverty Rate",
+                "Overall": "10.3%",
+                "Non-Hispanic White": "8.2%",
+                "Black": "17.6%",
+                "Latino or Hispanic": "17.7%",
+                "Asian": "12.9%",
+                "Native American": "17.5%"
+            },
+            {
+                "Geography": "Tennessee",
+                "Year": 2021,
+                "Category": "Overall Poverty Rate",
+                "Overall": "13.6%",
+                "Non-Hispanic White": "11.1%",
+                "Black": "22.2%",
+                "Latino or Hispanic": "20.2%",
+                "Asian": "11.1%",
+                "Native American": "15.7%"
+            },
+            {
+                "Geography": "Tennessee",
+                "Year": 2021,
+                "Category": "Child (Under 18) Poverty rate",
+                "Overall": "18.1%",
+                "Non-Hispanic White": "12.6%",
+                "Black": "31.9%",
+                "Latino or Hispanic": "26.4%",
+                "Asian": "11.7%",
+                "Native American": "18.2%"
+            },
+            {
+                "Geography": "Tennessee",
+                "Year": 2021,
+                "Category": "Adult (18-64) Poverty Rate",
+                "Overall": "13.0%",
+                "Non-Hispanic White": "11.3%",
+                "Black": "19.3%",
+                "Latino or Hispanic": "16.1%",
+                "Asian": "10.4%",
+                "Native American": "15.1%"
+            },
+            {
+                "Geography": "Tennessee",
+                "Year": 2021,
+                "Category": "Senior (65+) Poverty Rate",
+                "Overall": "10.2%",
+                "Non-Hispanic White": "8.9%",
+                "Black": "17.9%",
+                "Latino or Hispanic": "18.5%",
+                "Asian": "14.3%",
+                "Native American": "12.3%"
+            },
+            {
+                "Geography": "Shelby County",
+                "Year": 2021,
+                "Category": "Overall Poverty Rate",
+                "Overall": "17.9%",
+                "Non-Hispanic White": "7.6%",
+                "Black": "23.8%",
+                "Latino or Hispanic": "27.2%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "Shelby County",
+                "Year": 2021,
+                "Category": "Child (Under 18) Poverty rate",
+                "Overall": "24.1%",
+                "Non-Hispanic White": "4.4%",
+                "Black": "33.0%",
+                "Latino or Hispanic": "30.8%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "Shelby County",
+                "Year": 2021,
+                "Category": "Adult (18-64) Poverty Rate",
+                "Overall": "16.1%",
+                "Non-Hispanic White": "8.1%",
+                "Black": "20.5%",
+                "Latino or Hispanic": "23.7%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "Shelby County",
+                "Year": 2021,
+                "Category": "Senior (65+) Poverty Rate",
+                "Overall": "14.6%",
+                "Non-Hispanic White": "9.0%",
+                "Black": "19.8%",
+                "Latino or Hispanic": "35.0%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "City of Memphis",
+                "Year": 2021,
+                "Category": "Overall Poverty Rate",
+                "Overall": "22.6%",
+                "Non-Hispanic White": "10.3%",
+                "Black": "26.5%",
+                "Latino or Hispanic": "",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "City of Memphis",
+                "Year": 2021,
+                "Category": "Child (Under 18) Poverty rate",
+                "Overall": "32.7%",
+                "Non-Hispanic White": "5.8%",
+                "Black": "37.6%",
+                "Latino or Hispanic": "",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "City of Memphis",
+                "Year": 2021,
+                "Category": "Adult (18-64) Poverty Rate",
+                "Overall": "19.7%",
+                "Non-Hispanic White": "10.8%",
+                "Black": "22.8%",
+                "Latino or Hispanic": "",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "City of Memphis",
+                "Year": 2021,
+                "Category": "Senior (65+) Poverty Rate",
+                "Overall": "16.8%",
+                "Non-Hispanic White": "5.2%",
+                "Black": "20.8%",
+                "Latino or Hispanic": "",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "Memphis, TN-MS-AR Metro Area",
+                "Year": 2021,
+                "Category": "Overall Poverty Rate",
+                "Overall": "16.9%",
+                "Non-Hispanic White": "7.7%",
+                "Black": "23.9%",
+                "Latino or Hispanic": "28.2%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "Memphis, TN-MS-AR Metro Area",
+                "Year": 2021,
+                "Category": "Child (Under 18) Poverty rate",
+                "Overall": "22.9%",
+                "Non-Hispanic White": "5.9%",
+                "Black": "32.5%",
+                "Latino or Hispanic": "32.6%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "Memphis, TN-MS-AR Metro Area",
+                "Year": 2021,
+                "Category": "Adult (18-64) Poverty Rate",
+                "Overall": "15.2%",
+                "Non-Hispanic White": "8.0%",
+                "Black": "20.7%",
+                "Latino or Hispanic": "24.2%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Geography": "Memphis, TN-MS-AR Metro Area",
+                "Year": 2021,
+                "Category": "Senior (65+) Poverty Rate",
+                "Overall": "13.7%",
+                "Non-Hispanic White": "8.8%",
+                "Black": "20.3%",
+                "Latino or Hispanic": "35.4%",
+                "Asian": "",
+                "Native American": ""
+            }
+        ];
+        rows['2022'] = [
+            {
+                "Category": "Overall Poverty Rate",
+                "Year": 2022,
+                "Geography": "United States",
+                "Overall": "12.6%",
+                "Non-Hispanic White": "9.9%",
+                "Non-Hispanic Black": "21.3%",
+                "Latino or Hispanic": "16.8%",
+                "Asian": "10.1%",
+                "Native American": "21.7%"
+            },
+            {
+                "Category": "Child (Under 18) Poverty Rate",
+                "Year": 2022,
+                "Geography": "United States",
+                "Overall": "16.3%",
+                "Non-Hispanic White": "10.2%",
+                "Non-Hispanic Black": "29.8%",
+                "Latino or Hispanic": "22.0%",
+                "Asian": "10.1%",
+                "Native American": "28.7%"
+            },
+            {
+                "Category": "Poverty Rate for People 18-64",
+                "Year": 2022,
+                "Geography": "United States",
+                "Overall": "11.7%",
+                "Non-Hispanic White": "9.5%",
+                "Non-Hispanic Black": "18.6%",
+                "Latino or Hispanic": "14.1%",
+                "Asian": "9.3%",
+                "Native American": "19.2%"
+            },
+            {
+                "Category": "Poverty Rate for People 65+",
+                "Year": 2022,
+                "Geography": "United States",
+                "Overall": "10.9%",
+                "Non-Hispanic White": "8.8%",
+                "Non-Hispanic Black": "18.6%",
+                "Latino or Hispanic": "18.2%",
+                "Asian": "13.5%",
+                "Native American": "19.8%"
+            },
+            {
+                "Category": "Overall Poverty Rate",
+                "Year": 2022,
+                "Geography": "Tennessee",
+                "Overall": "13.3%",
+                "Non-Hispanic White": "10.9%",
+                "Non-Hispanic Black": "21.0%",
+                "Latino or Hispanic": "20.0%",
+                "Asian": "8.7%",
+                "Native American": ""
+            },
+            {
+                "Category": "Child (Under 18) Poverty Rate",
+                "Year": 2022,
+                "Geography": "Tennessee",
+                "Overall": "17.6%",
+                "Non-Hispanic White": "12.4%",
+                "Non-Hispanic Black": "30.2%",
+                "Latino or Hispanic": "25.6%",
+                "Asian": "11.8%",
+                "Native American": ""
+            },
+            {
+                "Category": "Poverty Rate for People 18-64",
+                "Year": 2022,
+                "Geography": "Tennessee",
+                "Overall": "12.4%",
+                "Non-Hispanic White": "10.8%",
+                "Non-Hispanic Black": "17.9%",
+                "Latino or Hispanic": "16.8%",
+                "Asian": "7.7%",
+                "Native American": ""
+            },
+            {
+                "Category": "Poverty Rate for People 65+",
+                "Year": 2022,
+                "Geography": "Tennessee",
+                "Overall": "11.0%",
+                "Non-Hispanic White": "10.0%",
+                "Non-Hispanic Black": "18.1%",
+                "Latino or Hispanic": "12.6%",
+                "Asian": "9.5%",
+                "Native American": ""
+            },
+            {
+                "Category": "Overall Poverty Rate",
+                "Year": 2022,
+                "Geography": "Shelby County, Tennessee",
+                "Overall": "16.5%",
+                "Non-Hispanic White": "8.1%",
+                "Non-Hispanic Black": "21.7%",
+                "Latino or Hispanic": "19.4%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Child (Under 18) Poverty Rate",
+                "Year": 2022,
+                "Geography": "Shelby County, Tennessee",
+                "Overall": "23.7%",
+                "Non-Hispanic White": "7.2%",
+                "Non-Hispanic Black": "30.3%",
+                "Latino or Hispanic": "25.8%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Poverty Rate for People 18-64",
+                "Year": 2022,
+                "Geography": "Shelby County, Tennessee",
+                "Overall": "14.5%",
+                "Non-Hispanic White": "7.9%",
+                "Non-Hispanic Black": "18.8%",
+                "Latino or Hispanic": "14.1%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Poverty Rate for People 65+",
+                "Year": 2022,
+                "Geography": "Shelby County, Tennessee",
+                "Overall": "12.8%",
+                "Non-Hispanic White": "8.2%",
+                "Non-Hispanic Black": "17.9%",
+                "Latino or Hispanic": "20.9%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Overall Poverty Rate",
+                "Year": 2022,
+                "Geography": "City of Memphis, Tennessee",
+                "Overall": "21.4%",
+                "Non-Hispanic White": "12.2%",
+                "Non-Hispanic Black": "24.7%",
+                "Latino or Hispanic": "22.7%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Child (Under 18) Poverty Rate",
+                "Year": 2022,
+                "Geography": "City of Memphis, Tennessee",
+                "Overall": "32.7%",
+                "Non-Hispanic White": "10.4%",
+                "Non-Hispanic Black": "36.3%",
+                "Latino or Hispanic": "30.6%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Poverty Rate for People 18-64",
+                "Year": 2022,
+                "Geography": "City of Memphis, Tennessee",
+                "Overall": "18.3%",
+                "Non-Hispanic White": "12.3%",
+                "Non-Hispanic Black": "21.2%",
+                "Latino or Hispanic": "16.3%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Poverty Rate for People 65+",
+                "Year": 2022,
+                "Geography": "City of Memphis, Tennessee",
+                "Overall": "15.7%",
+                "Non-Hispanic White": "11.3%",
+                "Non-Hispanic Black": "18.3%",
+                "Latino or Hispanic": "23.9%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Overall Poverty Rate",
+                "Year": 2022,
+                "Geography": "Memphis, TN-MS-AR Metro Area",
+                "Overall": "15.7%",
+                "Non-Hispanic White": "8.2%",
+                "Non-Hispanic Black": "22.4%",
+                "Latino or Hispanic": "17.5%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Child (Under 18) Poverty Rate",
+                "Year": 2022,
+                "Geography": "Memphis, TN-MS-AR Metro Area",
+                "Overall": "22.4%",
+                "Non-Hispanic White": "7.6%",
+                "Non-Hispanic Black": "32.0%",
+                "Latino or Hispanic": "23.7%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Poverty Rate for People 18-64",
+                "Year": 2022,
+                "Geography": "Memphis, TN-MS-AR Metro Area",
+                "Overall": "13.8%",
+                "Non-Hispanic White": "8.0%",
+                "Non-Hispanic Black": "19.1%",
+                "Latino or Hispanic": "12.9%",
+                "Asian": "",
+                "Native American": ""
+            },
+            {
+                "Category": "Poverty Rate for People 65+",
+                "Year": 2022,
+                "Geography": "Memphis, TN-MS-AR Metro Area",
+                "Overall": "12.2%",
+                "Non-Hispanic White": "8.0%",
+                "Non-Hispanic Black": "18.3%",
+                "Latino or Hispanic": "17.0%",
+                "Asian": "",
+                "Native American": ""
+            }
+        ];
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.gmbs-consulting.com/">GMBS Consulting</a>
+        <button
+                data-mdb-collapse-init
+                class="navbar-toggler"
+                type="button"
+                data-mdb-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html" data-text="home">home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-text="archives">archives</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-text="tags">tags</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-text="categories">categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-text="about">about</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./Table_1.html">Table 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Pie.html">Pie</a></li>
+                <li class="nav-item"><a class="nav-link" href="./maps_ZIP.html">Maps</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<label for="year">Year: </label>
+<select id="year" onchange="loadDropdown()">
+    <option value="2020" selected="selected">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+</select>
+<label for="geography">Geography: </label>
+<select id="geography" onchange="loadTableData('2020')">
+</select>
+<table class="table table-striped table-bordered">
+    <thead>
+    <tr class="table-dark" id="tableHead">
+    </tr>
+    </thead>
+    <tbody id="tableData">
+    </tbody>
+</table>
+<!-- MDB -->
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+></script>
+<script>
+    function onlyUnique(value, index, array) {
+        return array.indexOf(value) === index;
+    }
+
+    function loadDropdown() {
+        let year = document.getElementById('year');
+        let geography = document.getElementById('geography');
+        geography.innerHTML = "";
+        let geo = rows[year.value].map(a => a.Geography);
+        let uGeo = geo.filter(onlyUnique);
+        uGeo.forEach(g => {
+            let el = document.createElement("option");
+            el.textContent = g;
+            el.value = g;
+            geography.appendChild(el);
+        })
+        loadTableData(year.value);
+    }
+
+    function loadTableData() {
+        let year = document.getElementById('year');
+        let geography = document.getElementById('geography');
+        let yv = year.value;
+        let gv = geography.value;
+        const skip = ['Year', 'Geography'];
+        const tableHR = document.getElementById("tableHead");
+        tableHR.innerHTML = '';
+        const tableD = document.getElementById("tableData");
+        tableD.innerHTML = '';
+        if (rows[yv]) {
+            let head = rows[yv][0];
+            Object.keys(head).forEach(function (key) {
+                if (skip.includes(key)) {
+                } else {
+                    tableHR.insertCell().outerHTML = "<th scope='col'>" + key + "</th>";
+                }
+            })
+            rows[yv].forEach(data => {
+                    let i = 0;
+                    if (data.Geography === gv) {
+                        let row = tableD.insertRow();
+                        Object.keys(data).forEach(function (key) {
+                            if (skip.includes(key)) {
+                            } else {
+                                let cell = row.insertCell();
+                                cell.innerHTML = data[key];
+                                if (i === 0) {
+                                    cell.style.fontWeight = 'bold';
+                                }
+                                i++;
+                            }
+                        })
+                    }
+                }
+            )
+        }
+    }
+
+    loadTableData();
+</script>
+</body>
+</html>
