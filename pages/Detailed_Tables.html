@@ -916,10 +916,10 @@
         ];
         let [tracesR, layoutR] = makeTraceRace(catListR, data, yearList, gv);
         Plotly.newPlot('myDivRace', tracesR, layoutR);
-        let line = Plotly.d3.selectAll('.xgrid').filter('.crisp').filter(function (d, i) {
-            return i === yv
+        let line = Plotly.d3.selectAll('.xgrid').filter('.crisp').filter(function (d) {
+            return d.x === yv
         })
-        line.style("stroke", "rgb(255,0,0)")
+        line.style("stroke", "red")
         line.style("stroke-width", "10px")
     }
 
@@ -946,12 +946,5 @@
         type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
 ></script>
-<script
-        type="text/javascript"
-        src="../js/navbar.js"
-></script>
-<script>
-    document.getElementById('link-dt').classList.add("active");
-</script>
 </body>
 </html>
