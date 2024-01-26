@@ -917,7 +917,7 @@
         let [tracesR, layoutR] = makeTraceRace(catListR, data, yearList, gv);
         Plotly.newPlot('myDivRace', tracesR, layoutR);
         let line = Plotly.d3.selectAll('.xgrid').filter('.crisp').filter(function (d) {
-            return d.x === yv
+            return d.x === +yv
         })
         line.style("stroke", "red")
         line.style("stroke-width", "10px")
