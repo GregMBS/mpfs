@@ -1,0 +1,55 @@
+YEAR,GEO_ID,NAME,POP,OVERALL,CHILD
+2021,310M600US35620,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",19682420,12.3,16.6
+2021,310M600US31080,"Los Angeles-Long Beach-Anaheim, CA Metro Area",13007740,12.9,17.2
+2021,310M600US16980,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",9452175,11.1,15.1
+2021,310M600US19100,"Dallas-Fort Worth-Arlington, TX Metro Area",7457452,10.9,15.4
+2021,310M600US26420,"Houston-The Woodlands-Sugar Land, TX Metro Area",6961856,13.3,18.9
+2021,310M600US47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",6226117,7.7,9.9
+2021,310M600US37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",6065570,11.7,16
+2021,310M600US33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",6034183,13.6,18
+2021,310M600US12060,"Atlanta-Sandy Springs-Alpharetta, GA Metro Area",5930667,11.1,15.5
+2021,310M600US14460,"Boston-Cambridge-Newton, MA-NH Metro Area",4754092,9,10.3
+2021,310M600US38060,"Phoenix-Mesa-Chandler, AZ Metro Area",4706081,12,16.9
+2021,310M600US41860,"San Francisco-Oakland-Berkeley, CA Metro Area",4664871,8.4,9.1
+2021,310M600US40140,"Riverside-San Bernardino-Ontario, CA Metro Area",4487073,13.1,17.5
+2021,310M600US19820,"Detroit-Warren-Dearborn, MI Metro Area",4339187,13.5,19.8
+2021,310M600US42660,"Seattle-Tacoma-Bellevue, WA Metro Area",3911743,8.3,9.7
+2021,310M600US33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",3602297,8.1,10.1
+2021,310M600US41740,"San Diego-Chula Vista-Carlsbad, CA Metro Area",3213232,10.7,13.2
+2021,310M600US45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",3099568,12.9,17.4
+2021,310M600US19740,"Denver-Aurora-Lakewood, CO Metro Area",2902701,8.1,10.2
+2021,310M600US12580,"Baltimore-Columbia-Towson, MD Metro Area",2769741,9.8,12.7
+2021,310M600US41180,"St. Louis, MO-IL Metro Area",2756467,10.5,14.4
+2021,310M600US36740,"Orlando-Kissimmee-Sanford, FL Metro Area",2589188,12.6,17.1
+2021,310M600US16740,"Charlotte-Concord-Gastonia, NC-SC Metro Area",2585596,10.7,14.9
+2021,310M600US41700,"San Antonio-New Braunfels, TX Metro Area",2487389,13.8,19.4
+2021,310M600US38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",2460098,9.9,11.3
+2021,310M600US40900,"Sacramento-Roseville-Folsom, CA Metro Area",2345572,12.2,14.9
+2021,310M600US38300,"Pittsburgh, PA Metro Area",2309286,10.7,14.2
+2021,310M600US29820,"Las Vegas-Henderson-Paradise, NV Metro Area",2205977,13.6,19
+2021,310M600US17140,"Cincinnati, OH-KY-IN Metro Area",2194055,11.6,15.5
+2021,310M600US12420,"Austin-Round Rock-Georgetown, TX Metro Area",2192759,10.2,12
+2021,310M600US28140,"Kansas City, MO-KS Metro Area",2144180,9.8,13.5
+2021,310M600US41980,"San Juan-Bayamón-Caguas, PR Metro Area",2080095,38.6,52.6
+2021,310M600US18140,"Columbus, OH Metro Area",2068026,12.3,17
+2021,310M600US26900,"Indianapolis-Carmel-Anderson, IN Metro Area",2046519,11.1,15
+2021,310M600US17460,"Cleveland-Elyria, OH Metro Area",2044015,13.7,19.6
+2021,310M600US41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",1964765,6.7,6.8
+2021,310M600US34980,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1922235,10.9,14.6
+2021,310M600US47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",1722640,10.9,16.1
+2021,310M600US39300,"Providence-Warwick, RI-MA Metro Area",1611576,11.2,15.2
+2021,310M600US27260,"Jacksonville, FL Metro Area",1551596,12.3,17.2
+2021,310M600US33340,"Milwaukee-Waukesha, WI Metro Area",1542410,12.6,17.7
+2021,310M600US36420,"Oklahoma City, OK Metro Area",1381396,13.6,18.6
+2021,310M600US39580,"Raleigh-Cary, NC Metro Area",1367206,9.3,12.1
+2021,310M600US32820,"Memphis, TN-MS-AR Metro Area",1309702,16.9,25.6
+2021,310M600US40060,"Richmond, VA Metro Area",1272568,10.2,14.1
+2021,310M600US31140,"Louisville/Jefferson County, KY-IN Metro Area",1253215,12,17
+2021,310M600US35380,"New Orleans-Metairie, LA Metro Area",1248397,17.3,24.6
+2021,310M600US41620,"Salt Lake City, UT Metro Area",1228706,8.2,9.2
+2021,310M600US25540,"Hartford-East Hartford-Middletown, CT Metro Area",1173251,10.2,13.1
+2021,310M600US15380,"Buffalo-Cheektowaga, NY Metro Area",1134001,13.5,19.4
+2021,310M600US13820,"Birmingham-Hoover, AL Metro Area",1087255,13.7,18.7
+2021,310M600US24340,"Grand Rapids-Kentwood, MI Metro Area",1054779,9.8,11.7
+2021,310M600US40380,"Rochester, NY Metro Area",1048785,12.8,18.4
+2021,310M600US46060,"Tucson, AZ Metro Area",1007434,15.1,20.2

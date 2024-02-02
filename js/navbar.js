@@ -5,6 +5,7 @@ let navbar = `
                 <li class="nav-item"><a id="link-st" class="nav-link" href="../pages/Table_1.html">Summary Tables</a></li>
                 <li class="nav-item"><a id="link-sp" class="nav-link" href="../pages/Pie.html">Summary Pie Charts</a></li>
                 <li class="nav-item"><a id="link-m" class="nav-link" href="../pages/maps_ZIP.html">Maps</a></li>
+                <li class="nav-item"><a id="link-c" class="nav-link" href="../pages/top_10_tables.html">Cities</a></li>
             </ul>
     `;
 document.getElementById("navbarNav").innerHTML = navbar;
