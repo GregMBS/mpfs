@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Memphis Poverty Fact Sheet</title>
+    <!-- Font Awesome -->
     <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
             rel="stylesheet"
@@ -21,8 +22,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"
             integrity="sha512-M7nHCiNUOwFt6Us3r8alutZLm9qMt4s9951uo8jqO4UwJ1hziseL6O3ndFyigx6+LREfZqnhHxYjKRJ8ZQ69DQ=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Plotly.js -->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -43,16 +42,19 @@
     </div>
 </nav>
 <label for="year">Year: </label>
-<select id="year" onchange="loadData()">
+<select id="year" onchange="loadTableData()">
     <option value="2020" selected="selected">2020</option>
     <option value="2021">2021</option>
     <option value="2022">2022</option>
 </select>
-<h1>Percent of the Population in Poverty</h1>
-<div id="pie0" style="float: left; clear: left; margin-left: 10%"></div>
-<div id="pie1" style="float: right; clear: right; margin-right: 10%"></div>
-<div id="pie2" style="float: left; clear: left; margin-left: 10%"></div>
-<div id="pie3" style="float: right; clear: right; margin-right: 10%"></div>
+<table class="table table-striped table-bordered">
+    <thead>
+    <tr class="table-dark" id="tableHead">
+    </tr>
+    </thead>
+    <tbody id="tableData">
+    </tbody>
+</table>
 <!-- MDB -->
 <script
         type="text/javascript"
@@ -61,52 +63,39 @@
 <script>
     let json = [];
     const years = ['2020', '2021', '2022'];
-    function loadPies() {
+    function loadTableData() {
         let year = document.getElementById('year');
-        let yv = year.value;
-        let allValues = json[yv];
-        let data = [];
-        let layout = [];
-        for (let i = 0; i < 4; i++) {
-            let av = allValues[i];
-            let overall = Math.round(av['Overall']);
-            let firstCol =  year.value + ' Poverty Rate';
-            let title = av[firstCol]
-            data[i] = [{
-                values: [100 - overall, overall],
-                labels: ["Above Poverty Line", ["Below Poverty Line"]],
-                type: 'pie',
-                name: title,
-                marker: {
-                    colors: ['blue', 'red']
-                },
-                textfont: {
-                    family: 'Arial Bold',
-                    size: 24
-                },
-                hoverinfo: 'label+percent+name'
-            }];
-
-            layout[i] = {
-                height: 400,
-                width: 500,
-                title: title
-            };
+        const tableHR = document.getElementById("tableHead");
+        tableHR.innerHTML = '';
+        const tableD = document.getElementById("tableData");
+        tableD.innerHTML = '';
+        if (json[year.value]) {
+            let head = json[year.value][0];
+            Object.keys(head).forEach(function (key) {
+                tableHR.insertCell().outerHTML = "<th scope='col'>"+key+"</th>";
+            })
+            json[year.value].forEach(data => {
+                let row = tableD.insertRow();
+                let i = 0;
+                Object.keys(data).forEach(function (key) {
+                    let cell = row.insertCell();
+                    cell.innerHTML = data[key];
+                    if (i === 0) {
+                        cell.style.fontWeight = 'bold';
+                    }
+                    i++;
+                })
+            })
         }
-        Plotly.newPlot('pie0', data[0], layout[0]);
-        Plotly.newPlot('pie1', data[1], layout[1]);
-        Plotly.newPlot('pie2', data[2], layout[2]);
-        Plotly.newPlot('pie3', data[3], layout[3]);
     }
-
     function loadData() {
         years.forEach(yv => {
-            let url = '../data/pie/' + yv + '.json';
+            let url = '../data/summary/' + yv + '.json';
             d3
                 .json(url)
                 .then(function (data) {
                     json[yv] = data;
-                    loadPies();
+                    loadTableData();
                 });
         })
     }
@@ -115,14 +104,10 @@
 </script>
 <script
         type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
-></script>
-<script
-        type="text/javascript"
         src="../js/navbar.js"
 ></script>
 <script>
-    document.getElementById('link-sp').classList.add("active");
+    document.getElementById('link-st').classList.add("active");
 </script>
 </body>
 </html>

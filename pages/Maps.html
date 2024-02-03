@@ -79,7 +79,7 @@
 
     Plotly.d3.json('../maps/Shelby_ZCTA.geojson', function (e, f) {
         fig = f
-        Plotly.d3.csv("../data/Race_Poverty.csv", function (d) {
+        Plotly.d3.json("../data/maps/Race_Poverty.json", function (d) {
             dat = d
             drawMap(dat, fig, '2020')
         })

@@ -76,7 +76,7 @@
     function loadData() {
         geos.forEach(g => {
         let yv = document.getElementById('year').value;
-        let url = '../data/'+ g +'/' + yv + '.json';
+        let url = '../data/cities/'+ g +'/' + yv + '.json';
         d3
             .json(url)
             .then(function (data) {
