@@ -110,12 +110,18 @@
                 let row = tableB.insertRow();
                 let i = 0;
                 Object.keys(data).forEach(function (key) {
+                    let d = data[key];
                     if (skip.includes(key)) {
                     } else {
                         let cell = row.insertCell();
-                        cell.innerHTML = dataFormat(data[key]);
+                        cell.innerHTML = dataFormat(d);
                         if (i === 0) {
                             cell.style.fontWeight = 'bold';
+                        }
+                        if (key === 'NAME') {
+                            if (d.includes('Memphis')) {
+                                row.classList.add('table-warning')
+                            }
                         }
                         i++;
                     }
