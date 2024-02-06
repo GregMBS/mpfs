@@ -15,12 +15,20 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
             rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/4.2.7/style/dc.min.css"
+          integrity="sha512-t38Qn1jREPvzPvDLgIP2fjtOayaA1KKBuNpNj9BGgiMi+tGLOdvDB+aWLMe2BvokHg1OxRLQLE7qrlLo+A+MLA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- d3.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"
             integrity="sha512-M7nHCiNUOwFt6Us3r8alutZLm9qMt4s9951uo8jqO4UwJ1hziseL6O3ndFyigx6+LREfZqnhHxYjKRJ8ZQ69DQ=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Plotly.js -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- dc.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/4.2.7/dc.min.js"
+            integrity="sha512-vIRU1/ofrqZ6nA3aOsDQf8kiJnAHnLrzaDh4ob8yBcJNry7Czhb8mdKIP+p8y7ixiNbT/As1Oii9IVk+ohSFiA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
     <style>
         .map {
             width: 45%;
@@ -38,10 +46,15 @@
             padding: 0;
             margin-left: 5%;
         }
+
         #zipTable th, #zipTable td {
             padding: 0;
             margin: 0;
             font-size: larger;
+        }
+
+        .table-hover > tbody > tr:hover {
+            background-color: yellow;
         }
     </style>
     <title>Memphis Poverty and Race</title>
@@ -73,7 +86,7 @@
 <h1 style="text-align: center">Memphis Poverty and Race</h1>
 <!-- Plotly chart will be drawn inside this DIV -->
 <div id="myTab" class="tab">
-    <table id='zipTable' class="table table-striped table-bordered table-minimized">
+    <table id='zipTable' class="table table-striped table-bordered table-minimized table-hover">
         <thead>
         <tr class="table-dark" id="tableHead">
         </tr>
@@ -90,6 +103,8 @@
     let x = []
     let yp = []
     let yr = []
+    let idp = []
+    let idr = []
 
     Plotly.d3.json('../maps/Shelby_ZCTA.geojson', function (e, f) {
         fig = f
@@ -101,8 +116,9 @@
     })
 
     function makeLabel(key) {
-        return key.replace('_Race', ' Percent Non-White').replace('_Poverty',' Poverty Rate')
+        return key.replace('_Race', ' Percent Non-White').replace('_Poverty', ' Poverty Rate')
     }
+
     function loadTableData(json) {
         let yv = document.getElementById('year').value;
         const tableHR = document.getElementById("tableHead");
@@ -120,35 +136,45 @@
                     i++;
                 }
             })
-            json.forEach(data => {
-                    let i = 0;
-                        let row = tableD.insertRow();
-                        Object.keys(data).forEach(function (key) {
-                            if ((key.includes(yv) || (key === 'ZIP'))) {
-                                let cell = row.insertCell();
-                                cell.innerHTML = dataFormat(data[key]);
-                                cell.style.textAlign = 'center';
-                                if (i === 0) {
-                                    cell.style.fontWeight = 'bold';
-                                    cell.style.textAlign = 'center';
-                                }
-                                i++;
+            json.forEach((data, index) => {
+                    let row = tableD.insertRow();
+                    Object.keys(data).forEach(function (key) {
+                        if ((key.includes(yv) || (key === 'ZIP'))) {
+                            if (key === 'ZIP') {
+                                row.id = index.toString();
                             }
-                        })
+                            let cell = row.insertCell();
+                            cell.innerHTML = dataFormat(data[key]);
+                            cell.style.textAlign = 'center';
+                            row.addEventListener(
+                                "mouseover",
+                                markSpot
+                            );
+                        }
+                    })
                 }
             )
         }
     }
 
-    function drawMap(d, f, year) {
-        var pData = year + '_Poverty';
-        var rData = year + '_Race';
+
+    function drawMap(d, f, year, z = -1) {
+        let pData = year + '_Poverty';
+        let rData = year + '_Race';
+        let i = 0;
+        let zx = [];
         d.forEach((row) => {
-            if (row.ZIP !== 'ZIP') {
-                x.push(row.ZIP);
-                yp.push(row[pData]);
-                yr.push(row[rData]);
-            }
+                if (row.ZIP !== 'ZIP') {
+                    idp.push("p"+i);
+                    idr.push("r"+i);
+                    x.push(row.ZIP);
+                    yp.push(row[pData]);
+                    yr.push(row[rData]);
+                    if (z === i) {
+                        zx.push(row.ZIP);
+                    }
+                }
+                i++;
         })
 
         var counties1 = [{
@@ -157,6 +183,7 @@
             featureidkey: 'properties.GEOID20',
             locations: x,
             z: yp,
+            ids: idp,
             colorscale: 'Portland',
             colorbar: {
                 autotic: false,
@@ -165,18 +192,43 @@
             }
         }];
 
+        var counties1a = [{
+            type: 'scattergeo',
+            geojson: f,
+            featureidkey: 'properties.GEOID20',
+            locations: zx,
+            marker: {
+                color: 'rgb(0,0,0)',
+                size: 10
+            },
+            showlegend: false
+        }];
+
         var counties2 = [{
             type: 'choropleth',
             geojson: f,
             featureidkey: 'properties.GEOID20',
             locations: x,
             z: yr,
+            ids: idr,
             colorscale: 'Portland',
             colorbar: {
                 autotic: false,
                 ticksuffix: '%',
                 title: 'Percent Non-White'
             }
+        }];
+
+        var counties2a = [{
+            type: 'scattergeo',
+            geojson: f,
+            featureidkey: 'properties.GEOID20',
+            locations: zx,
+            marker: {
+                color: 'rgb(0,0,0)',
+                size: 10
+            },
+            showlegend: false
         }];
 
         var pMapLayout = {
@@ -195,18 +247,26 @@
 
         Plotly.newPlot('pMap', counties1, pMapLayout);
         Plotly.newPlot('rMap', counties2, rMapLayout);
-
+        Plotly.addTraces('pMap', counties1a);
+        Plotly.addTraces('rMap', counties2a);
     }
-    function switchType(col, x) {
+
+    function markSpot(ev) {
+        let z = ev.currentTarget.id;
+        redrawMap(+z);
+    }
+
+     function switchType(col, x) {
         if (col === 0) {
             return x.toLowerCase()
         }
         return makeNum(x);
     }
 
-    function makeNum (x) {
+    function makeNum(x) {
         return parseFloat(x.replace(/,/g, '').replace(/%/g, ''));
     }
+
     function dataFormat(x) {
         if (isNaN(x)) {
             return x;
@@ -241,13 +301,13 @@
                 /* Check if the two rows should switch place,
                 based on the direction, asc or desc: */
                 if (dir === "asc") {
-                    if (switchType(n,x.innerHTML) > switchType(n,y.innerHTML)) {
+                    if (switchType(n, x.innerHTML) > switchType(n, y.innerHTML)) {
                         // If so, mark as a switch and break the loop:
                         shouldSwitch = true;
                         break;
                     }
                 } else if (dir === "desc") {
-                    if (switchType(n,x.innerHTML) < switchType(n,y.innerHTML)) {
+                    if (switchType(n, x.innerHTML) < switchType(n, y.innerHTML)) {
                         // If so, mark as a switch and break the loop:
                         shouldSwitch = true;
                         break;
@@ -272,13 +332,15 @@
         }
     }
 
-    function redrawMap() {
+    function redrawMap(z = -1) {
         x.length = 0
         yp.length = 0
         yr.length = 0
         let year = document.getElementById('year');
-        drawMap(dat, fig, year.value);
-        loadTableData(dat);
+        drawMap(dat, fig, year.value, +z);
+        if (z === -1) {
+            loadTableData(dat);
+        }
     }
 </script>
 <script
