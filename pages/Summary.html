@@ -47,6 +47,7 @@
     <option value="2021">2021</option>
     <option value="2022">2022</option>
 </select>
+
 <table class="table table-striped table-bordered">
     <thead>
     <tr class="table-dark" id="tableHead">
@@ -55,6 +56,43 @@
     <tbody id="tableData">
     </tbody>
 </table>
+
+<div class="modal bg-primary" tabindex="-1" role="dialog" id="discussion" onclick="hideMe()">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    The Poverty Rate in Memphis and Shelby County Compared to National Rates
+                </h5>
+            </div>
+            <div class="modal-body overflow-auto">
+                <p>
+                    In general, poverty rates for the City of Memphis are to be higher than poverty
+                    rates in Shelby County for every category. Both are higher than poverty rates in
+                    Tennessee, with the notable exception of Whites, for whom poverty rates are higher
+                    in Tennessee than in the United States, Shelby County, and the Memphis MSA. In
+                    both Shelby County and the Memphis MSA, the poverty rate for Whites is lower than
+                    in the United States and in the state of Tennessee. This, together with the
+                    overall decline in the White population in Memphis, suggests that Whites with
+                    higher incomes are leaving the core city of Memphis and moving to the surrounding
+                    suburban communities associated with Memphis but not to the rural areas.
+                </p>
+                <p>
+                    Overall, the nation, the state, and the Memphis area are in a remarkably similar
+                    place throughout 2020 - 2022. In general, poverty rates differ by a few tenths
+                    of a percentile point. This is true except for Whites in the city of Memphis and
+                    for older adults for whom poverty rates have increased. At all levels, poverty
+                    among older adults seems to be what is driving the increase in poverty rates.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+    <button>Close</button>
+</div>
+<button class='btn btn-primary' onclick="dshow()">Show Discussion</button>
 <!-- MDB -->
 <script
         type="text/javascript"
@@ -63,6 +101,7 @@
 <script>
     let json = [];
     const years = ['2020', '2021', '2022'];
+
     function loadTableData() {
         let year = document.getElementById('year');
         const tableHR = document.getElementById("tableHead");
@@ -72,7 +111,7 @@
         if (json[year.value]) {
             let head = json[year.value][0];
             Object.keys(head).forEach(function (key) {
-                tableHR.insertCell().outerHTML = "<th scope='col'>"+key+"</th>";
+                tableHR.insertCell().outerHTML = "<th scope='col'>" + key + "</th>";
             })
             json[year.value].forEach(data => {
                 let row = tableD.insertRow();
@@ -88,6 +127,7 @@
             })
         }
     }
+
     function loadData() {
         years.forEach(yv => {
             let url = '../data/summary/' + yv + '.json';
@@ -106,8 +146,20 @@
         type="text/javascript"
         src="../js/navbar.js"
 ></script>
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+></script>
 <script>
     document.getElementById('link-st').classList.add("active");
+</script>
+<script>
+    function dshow() {
+        document.getElementById('discussion').style.display='block';
+    }
+    function hideMe() {
+        document.getElementById('discussion').style.display='none';
+    }
 </script>
 </body>
 </html>
