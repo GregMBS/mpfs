@@ -1,0 +1,274 @@
+[
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US3651000",
+    "NAME": "New York city, New York",
+    "POP": 8278322,
+    "OVERALL": 17.9,
+    "CHILD": 25.1
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US0644000",
+    "NAME": "Los Angeles city, California",
+    "POP": 3896313,
+    "OVERALL": 18,
+    "CHILD": 25.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US1714000",
+    "NAME": "Chicago city, Illinois",
+    "POP": 2654847,
+    "OVERALL": 18.4,
+    "CHILD": 26.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4835000",
+    "NAME": "Houston city, Texas",
+    "POP": 2277432,
+    "OVERALL": 20.1,
+    "CHILD": 31.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US0455000",
+    "NAME": "Phoenix city, Arizona",
+    "POP": 1614007,
+    "OVERALL": 18,
+    "CHILD": 26.6
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4260000",
+    "NAME": "Philadelphia city, Pennsylvania",
+    "POP": 1535277,
+    "OVERALL": 24.3,
+    "CHILD": 34.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4865000",
+    "NAME": "San Antonio city, Texas",
+    "POP": 1484219,
+    "OVERALL": 17.8,
+    "CHILD": 26.1
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US0666000",
+    "NAME": "San Diego city, California",
+    "POP": 1377416,
+    "OVERALL": 12.8,
+    "CHILD": 15.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4819000",
+    "NAME": "Dallas city, Texas",
+    "POP": 1316529,
+    "OVERALL": 18.9,
+    "CHILD": 29.3
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US0668000",
+    "NAME": "San Jose city, California",
+    "POP": 1016950,
+    "OVERALL": 8.7,
+    "CHILD": 9.3
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4805000",
+    "NAME": "Austin city, Texas",
+    "POP": 929224,
+    "OVERALL": 13.2,
+    "CHILD": 18
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US1235000",
+    "NAME": "Jacksonville city, Florida",
+    "POP": 869497,
+    "OVERALL": 14.9,
+    "CHILD": 21.9
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US0667000",
+    "NAME": "San Francisco city, California",
+    "POP": 861359,
+    "OVERALL": 10.3,
+    "CHILD": 10
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4827000",
+    "NAME": "Fort Worth city, Texas",
+    "POP": 858543,
+    "OVERALL": 14.5,
+    "CHILD": 20
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US3918000",
+    "NAME": "Columbus city, Ohio",
+    "POP": 854150,
+    "OVERALL": 19.5,
+    "CHILD": 29.3
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US1836003",
+    "NAME": "Indianapolis city (balance), Indiana",
+    "POP": 846141,
+    "OVERALL": 18,
+    "CHILD": 26.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US3712000",
+    "NAME": "Charlotte city, North Carolina",
+    "POP": 844318,
+    "OVERALL": 12.8,
+    "CHILD": 18.6
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US5363000",
+    "NAME": "Seattle city, Washington",
+    "POP": 705388,
+    "OVERALL": 11,
+    "CHILD": 10.9
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US0820000",
+    "NAME": "Denver city, Colorado",
+    "POP": 693555,
+    "OVERALL": 12.9,
+    "CHILD": 18.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4824000",
+    "NAME": "El Paso city, Texas",
+    "POP": 672138,
+    "OVERALL": 19.1,
+    "CHILD": 27.1
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US2622000",
+    "NAME": "Detroit city, Michigan",
+    "POP": 662884,
+    "OVERALL": 35,
+    "CHILD": 50.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US1150000",
+    "NAME": "Washington city, District of Columbia",
+    "POP": 659676,
+    "OVERALL": 16.2,
+    "CHILD": 24
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4752006",
+    "NAME": "Nashville-Davidson metropolitan government (balance), Tennessee",
+    "POP": 642586,
+    "OVERALL": 15.1,
+    "CHILD": 24.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US2507000",
+    "NAME": "Boston city, Massachusetts",
+    "POP": 641654,
+    "OVERALL": 18.9,
+    "CHILD": 27.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4748000",
+    "NAME": "Memphis city, Tennessee",
+    "POP": 635912,
+    "OVERALL": 25.1,
+    "CHILD": 40.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4159000",
+    "NAME": "Portland city, Oregon",
+    "POP": 632441,
+    "OVERALL": 13.7,
+    "CHILD": 15.5
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US4055000",
+    "NAME": "Oklahoma City city, Oklahoma",
+    "POP": 630764,
+    "OVERALL": 16.1,
+    "CHILD": 23.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US3240000",
+    "NAME": "Las Vegas city, Nevada",
+    "POP": 625657,
+    "OVERALL": 15.3,
+    "CHILD": 21.3
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US2148006",
+    "NAME": "Louisville/Jefferson County metro government (balance), Kentucky",
+    "POP": 602974,
+    "OVERALL": 15.9,
+    "CHILD": 24
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US2404000",
+    "NAME": "Baltimore city, Maryland",
+    "POP": 586821,
+    "OVERALL": 21.2,
+    "CHILD": 31
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US5553000",
+    "NAME": "Milwaukee city, Wisconsin",
+    "POP": 578085,
+    "OVERALL": 25.4,
+    "CHILD": 36.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US3502000",
+    "NAME": "Albuquerque city, New Mexico",
+    "POP": 553757,
+    "OVERALL": 16.9,
+    "CHILD": 24
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US0477000",
+    "NAME": "Tucson city, Arizona",
+    "POP": 516268,
+    "OVERALL": 22.5,
+    "CHILD": 30.5
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "1600000US0627000",
+    "NAME": "Fresno city, California",
+    "POP": 516007,
+    "OVERALL": 25.2,
+    "CHILD": 35.6
+  }
+]

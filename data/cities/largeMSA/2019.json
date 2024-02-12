@@ -1,0 +1,426 @@
+[
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US35620",
+    "NAME": "New York-Newark-Jersey City, NY-NJ-PA Metro Area",
+    "POP": 18966426,
+    "OVERALL": 12.8,
+    "CHILD": 17.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US31080",
+    "NAME": "Los Angeles-Long Beach-Anaheim, CA Metro Area",
+    "POP": 13059503,
+    "OVERALL": 13.9,
+    "CHILD": 19.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US16980",
+    "NAME": "Chicago-Naperville-Elgin, IL-IN-WI Metro Area",
+    "POP": 9351905,
+    "OVERALL": 11.8,
+    "CHILD": 16.5
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US19100",
+    "NAME": "Dallas-Fort Worth-Arlington, TX Metro Area",
+    "POP": 7232260,
+    "OVERALL": 11.7,
+    "CHILD": 16.6
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US26420",
+    "NAME": "Houston-The Woodlands-Sugar Land, TX Metro Area",
+    "POP": 6797640,
+    "OVERALL": 13.7,
+    "CHILD": 19.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US47900",
+    "NAME": "Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",
+    "POP": 6089543,
+    "OVERALL": 7.8,
+    "CHILD": 9.9
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US33100",
+    "NAME": "Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",
+    "POP": 6015495,
+    "OVERALL": 14.6,
+    "CHILD": 20.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US37980",
+    "NAME": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",
+    "POP": 5929560,
+    "OVERALL": 12.4,
+    "CHILD": 16.9
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US12060",
+    "NAME": "Atlanta-Sandy Springs-Alpharetta, GA Metro Area",
+    "POP": 5765678,
+    "OVERALL": 12.1,
+    "CHILD": 17.4
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US38060",
+    "NAME": "Phoenix-Mesa-Chandler, AZ Metro Area",
+    "POP": 4677963,
+    "OVERALL": 13.7,
+    "CHILD": 19.6
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US14460",
+    "NAME": "Boston-Cambridge-Newton, MA-NH Metro Area",
+    "POP": 4676008,
+    "OVERALL": 9.3,
+    "CHILD": 11.3
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US41860",
+    "NAME": "San Francisco-Oakland-Berkeley, CA Metro Area",
+    "POP": 4639622,
+    "OVERALL": 9,
+    "CHILD": 10.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US40140",
+    "NAME": "Riverside-San Bernardino-Ontario, CA Metro Area",
+    "POP": 4464912,
+    "OVERALL": 14.8,
+    "CHILD": 20.5
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US19820",
+    "NAME": "Detroit-Warren-Dearborn, MI Metro Area",
+    "POP": 4271868,
+    "OVERALL": 14.5,
+    "CHILD": 21.4
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US42660",
+    "NAME": "Seattle-Tacoma-Bellevue, WA Metro Area",
+    "POP": 3812730,
+    "OVERALL": 9,
+    "CHILD": 10.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US33460",
+    "NAME": "Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",
+    "POP": 3514868,
+    "OVERALL": 8.6,
+    "CHILD": 11
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US41740",
+    "NAME": "San Diego-Chula Vista-Carlsbad, CA Metro Area",
+    "POP": 3234305,
+    "OVERALL": 11.6,
+    "CHILD": 14.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US45300",
+    "NAME": "Tampa-St. Petersburg-Clearwater, FL Metro Area",
+    "POP": 3051848,
+    "OVERALL": 13.5,
+    "CHILD": 18.6
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US19740",
+    "NAME": "Denver-Aurora-Lakewood, CO Metro Area",
+    "POP": 2856401,
+    "OVERALL": 8.8,
+    "CHILD": 11.4
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US41180",
+    "NAME": "St. Louis, MO-IL Metro Area",
+    "POP": 2745684,
+    "OVERALL": 11.3,
+    "CHILD": 16
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US12580",
+    "NAME": "Baltimore-Columbia-Towson, MD Metro Area",
+    "POP": 2728006,
+    "OVERALL": 10.1,
+    "CHILD": 13.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US16740",
+    "NAME": "Charlotte-Concord-Gastonia, NC-SC Metro Area",
+    "POP": 2505607,
+    "OVERALL": 11.7,
+    "CHILD": 16.5
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US36740",
+    "NAME": "Orlando-Kissimmee-Sanford, FL Metro Area",
+    "POP": 2464619,
+    "OVERALL": 13.7,
+    "CHILD": 19.6
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US41700",
+    "NAME": "San Antonio-New Braunfels, TX Metro Area",
+    "POP": 2426780,
+    "OVERALL": 14.4,
+    "CHILD": 20.6
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US38900",
+    "NAME": "Portland-Vancouver-Hillsboro, OR-WA Metro Area",
+    "POP": 2412378,
+    "OVERALL": 10.6,
+    "CHILD": 13.1
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US40900",
+    "NAME": "Sacramento-Roseville-Folsom, CA Metro Area",
+    "POP": 2282378,
+    "OVERALL": 13.4,
+    "CHILD": 16.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US38300",
+    "NAME": "Pittsburgh, PA Metro Area",
+    "POP": 2273555,
+    "OVERALL": 11.2,
+    "CHILD": 14.9
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US29820",
+    "NAME": "Las Vegas-Henderson-Paradise, NV Metro Area",
+    "POP": 2154251,
+    "OVERALL": 13.7,
+    "CHILD": 19.3
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US17140",
+    "NAME": "Cincinnati, OH-KY-IN Metro Area",
+    "POP": 2151116,
+    "OVERALL": 12.2,
+    "CHILD": 16.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US28140",
+    "NAME": "Kansas City, MO-KS Metro Area",
+    "POP": 2090932,
+    "OVERALL": 10.5,
+    "CHILD": 15
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US41980",
+    "NAME": "San Juan-Bayamón-Caguas, PR Metro Area",
+    "POP": 2083325,
+    "OVERALL": 39.9,
+    "CHILD": 53
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US12420",
+    "NAME": "Austin-Round Rock-Georgetown, TX Metro Area",
+    "POP": 2071838,
+    "OVERALL": 10.8,
+    "CHILD": 13.3
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US18140",
+    "NAME": "Columbus, OH Metro Area",
+    "POP": 2021763,
+    "OVERALL": 13.2,
+    "CHILD": 18.5
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US17460",
+    "NAME": "Cleveland-Elyria, OH Metro Area",
+    "POP": 2015300,
+    "OVERALL": 14.3,
+    "CHILD": 20.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US26900",
+    "NAME": "Indianapolis-Carmel-Anderson, IN Metro Area",
+    "POP": 1985723,
+    "OVERALL": 12.4,
+    "CHILD": 17.5
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US41940",
+    "NAME": "San Jose-Sunnyvale-Santa Clara, CA Metro Area",
+    "POP": 1956372,
+    "OVERALL": 7.5,
+    "CHILD": 7.9
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US34980",
+    "NAME": "Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",
+    "POP": 1835177,
+    "OVERALL": 11.4,
+    "CHILD": 15.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US47260",
+    "NAME": "Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",
+    "POP": 1690683,
+    "OVERALL": 11.3,
+    "CHILD": 17.1
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US39300",
+    "NAME": "Providence-Warwick, RI-MA Metro Area",
+    "POP": 1562542,
+    "OVERALL": 12,
+    "CHILD": 16.9
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US33340",
+    "NAME": "Milwaukee-Waukesha, WI Metro Area",
+    "POP": 1545145,
+    "OVERALL": 13.3,
+    "CHILD": 19.3
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US27260",
+    "NAME": "Jacksonville, FL Metro Area",
+    "POP": 1473622,
+    "OVERALL": 12.6,
+    "CHILD": 17.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US36420",
+    "NAME": "Oklahoma City, OK Metro Area",
+    "POP": 1349560,
+    "OVERALL": 13.9,
+    "CHILD": 19
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US32820",
+    "NAME": "Memphis, TN-MS-AR Metro Area",
+    "POP": 1313071,
+    "OVERALL": 17.6,
+    "CHILD": 27.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US39580",
+    "NAME": "Raleigh-Cary, NC Metro Area",
+    "POP": 1306195,
+    "OVERALL": 9.8,
+    "CHILD": 13.4
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US35380",
+    "NAME": "New Orleans-Metairie, LA Metro Area",
+    "POP": 1245779,
+    "OVERALL": 17.3,
+    "CHILD": 25.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US40060",
+    "NAME": "Richmond, VA Metro Area",
+    "POP": 1237185,
+    "OVERALL": 11.2,
+    "CHILD": 15.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US31140",
+    "NAME": "Louisville/Jefferson County, KY-IN Metro Area",
+    "POP": 1230232,
+    "OVERALL": 12.5,
+    "CHILD": 18.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US41620",
+    "NAME": "Salt Lake City, UT Metro Area",
+    "POP": 1185883,
+    "OVERALL": 9,
+    "CHILD": 10.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US25540",
+    "NAME": "Hartford-East Hartford-Middletown, CT Metro Area",
+    "POP": 1165808,
+    "OVERALL": 9.9,
+    "CHILD": 12.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US15380",
+    "NAME": "Buffalo-Cheektowaga, NY Metro Area",
+    "POP": 1100056,
+    "OVERALL": 14.1,
+    "CHILD": 20.8
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US13820",
+    "NAME": "Birmingham-Hoover, AL Metro Area",
+    "POP": 1062779,
+    "OVERALL": 14.1,
+    "CHILD": 19.2
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US24340",
+    "NAME": "Grand Rapids-Kentwood, MI Metro Area",
+    "POP": 1034962,
+    "OVERALL": 11,
+    "CHILD": 13.7
+  },
+  {
+    "YEAR": 2019,
+    "GEO_ID": "310M500US40380",
+    "NAME": "Rochester, NY Metro Area",
+    "POP": 1033274,
+    "OVERALL": 13.4,
+    "CHILD": 19.5
+  }
+]
