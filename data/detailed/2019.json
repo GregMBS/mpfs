@@ -1,0 +1,222 @@
+[
+  {
+    "Geography": "United States",
+    "Year": 2019,
+    "Category": "Overall Poverty Rate",
+    "Overall": "12.30%",
+    "Non-Hispanic White": "9.00%",
+    "Black": "21.20%",
+    "Latino or Hispanic": "17.20%",
+    "Asian": "9.60%",
+    "Native American": "23.00%"
+  },
+  {
+    "Geography": "United States",
+    "Year": 2019,
+    "Category": "Child (Under 18) Poverty Rate",
+    "Overall": "16.80%",
+    "Non-Hispanic White": "10.20%",
+    "Black": "30.60%",
+    "Latino or Hispanic": "23.40%",
+    "Asian": "9.20%",
+    "Native American": "29.80%"
+  },
+  {
+    "Geography": "United States",
+    "Year": 2019,
+    "Category": "Adult (18-64) Poverty Rate",
+    "Overall": "12.90%",
+    "Non-Hispanic White": "9.30%",
+    "Black": "18.30%",
+    "Latino or Hispanic": "14.00%",
+    "Asian": "9.20%",
+    "Native American": "21.40%"
+  },
+  {
+    "Geography": "United States",
+    "Year": 2019,
+    "Category": "Senior (65+) Poverty Rate",
+    "Overall": "9.40%",
+    "Non-Hispanic White": "7.30%",
+    "Black": "17.60%",
+    "Latino or Hispanic": "17.70%",
+    "Asian": "12.60%",
+    "Native American": "16.40%"
+  },
+  {
+    "Geography": "Tennessee",
+    "Year": 2019,
+    "Category": "Overall Poverty Rate",
+    "Overall": "13.90%",
+    "Non-Hispanic White": "11.20%",
+    "Black": "21.50%",
+    "Latino or Hispanic": "23.60%",
+    "Asian": "9.40%",
+    "Native American": ""
+  },
+  {
+    "Geography": "Tennessee",
+    "Year": 2019,
+    "Category": "Child (Under 18) Poverty Rate",
+    "Overall": "19.70%",
+    "Non-Hispanic White": "14.00%",
+    "Black": "30.90%",
+    "Latino or Hispanic": "31.90%",
+    "Asian": "8.40%",
+    "Native American": ""
+  },
+  {
+    "Geography": "Tennessee",
+    "Year": 2019,
+    "Category": "Adult (18-64) Poverty Rate",
+    "Overall": "12.90%",
+    "Non-Hispanic White": "11.10%",
+    "Black": "18.50%",
+    "Latino or Hispanic": "18.50%",
+    "Asian": "9.90%",
+    "Native American": ""
+  },
+  {
+    "Geography": "Tennessee",
+    "Year": 2019,
+    "Category": "Senior (65+) Poverty Rate",
+    "Overall": "9.70%",
+    "Non-Hispanic White": "8.60%",
+    "Black": "17.40%",
+    "Latino or Hispanic": "13.50%",
+    "Asian": "7.60%",
+    "Native American": ""
+  },
+  {
+    "Geography": "Shelby County",
+    "Year": 2019,
+    "Category": "Overall Poverty Rate",
+    "Overall": "16.80%",
+    "Non-Hispanic White": "6.80%",
+    "Black": "23.00%",
+    "Latino or Hispanic": "24.50%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "Shelby County",
+    "Year": 2019,
+    "Category": "Child (Under 18) Poverty Rate",
+    "Overall": "25.90%",
+    "Non-Hispanic White": "5.70%",
+    "Black": "34.50%",
+    "Latino or Hispanic": "33.10%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "Shelby County",
+    "Year": 2019,
+    "Category": "Adult (18-64) Poverty Rate",
+    "Overall": "14.30%",
+    "Non-Hispanic White": "6.90%",
+    "Black": "19.20%",
+    "Latino or Hispanic": "18.30%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "Shelby County",
+    "Year": 2019,
+    "Category": "Senior (65+) Poverty Rate",
+    "Overall": "11.80%",
+    "Non-Hispanic White": "7.20%",
+    "Black": "17.20%",
+    "Latino or Hispanic": "10.00%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "City of Memphis",
+    "Year": 2019,
+    "Category": "Overall Poverty Rate",
+    "Overall": "21.70%",
+    "Non-Hispanic White": "9.30%",
+    "Black": "26.10%",
+    "Latino or Hispanic": "24.50%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "City of Memphis",
+    "Year": 2019,
+    "Category": "Child (Under 18) Poverty Rate",
+    "Overall": "35.00%",
+    "Non-Hispanic White": "9.80%",
+    "Black": "40.10%",
+    "Latino or Hispanic": "33.10%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "City of Memphis",
+    "Year": 2019,
+    "Category": "Adult (18-64) Poverty Rate",
+    "Overall": "18.30%",
+    "Non-Hispanic White": "9.70%",
+    "Black": "21.80%",
+    "Latino or Hispanic": "18.30%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "City of Memphis",
+    "Year": 2019,
+    "Category": "Senior (65+) Poverty Rate",
+    "Overall": "14.10%",
+    "Non-Hispanic White": "8.00%",
+    "Black": "18.70%",
+    "Latino or Hispanic": "10.00%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "Memphis MSA",
+    "Year": 2019,
+    "Category": "Overall Poverty Rate",
+    "Overall": "15.40%",
+    "Non-Hispanic White": "6.90%",
+    "Black": "22.60%",
+    "Latino or Hispanic": "21.90%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "Memphis MSA",
+    "Year": 2019,
+    "Category": "Child (Under 18) Poverty Rate",
+    "Overall": "23.70%",
+    "Non-Hispanic White": "7.20%",
+    "Black": "34.10%",
+    "Latino or Hispanic": "30.40%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "Memphis MSA",
+    "Year": 2019,
+    "Category": "Adult (18-64) Poverty Rate",
+    "Overall": "13.10%",
+    "Non-Hispanic White": "7.00%",
+    "Black": "18.40%",
+    "Latino or Hispanic": "16.00%",
+    "Asian": "",
+    "Native American": ""
+  },
+  {
+    "Geography": "Memphis MSA",
+    "Year": 2019,
+    "Category": "Senior (65+) Poverty Rate",
+    "Overall": "10.70%",
+    "Non-Hispanic White": "6.10%",
+    "Black": "18.30%",
+    "Latino or Hispanic": "10.10%",
+    "Asian": "",
+    "Native American": ""
+  }
+]

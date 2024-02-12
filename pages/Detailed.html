@@ -72,7 +72,8 @@
 </nav>
 <label for="year">Year: </label>
 <select id="year" onchange="update()">
-    <option value="2020" selected="selected">2020</option>
+    <option value="2019" selected="selected">2019</option>
+    <option value="2020">2020</option>
     <option value="2021">2021</option>
     <option value="2022">2022</option>
 </select>
@@ -97,7 +98,7 @@
 ></script>
 <script>
     let json = [];
-    const years = ['2020', '2021', '2022'];
+    const years = ['2019', '2020', '2021', '2022'];
     function onlyUnique(value, index, array) {
         return array.indexOf(value) === index;
     }
@@ -190,8 +191,8 @@
                 range: [0, 50]
             },
             xaxis: {
-                tickvals: ['2020', '2021', '2022'],
-                ticktext: ['2020', '2021', '2022']
+                tickvals: years,
+                ticktext: years
             },
             showlegend: true,
             legend: {
@@ -226,8 +227,8 @@
                 range: [0, 50]
             },
             xaxis: {
-                tickvals: ['2020', '2021', '2022'],
-                ticktext: ['2020', '2021', '2022']
+                tickvals: years,
+                ticktext: years
             },
             showlegend: true,
             legend: {
@@ -241,7 +242,7 @@
 
     function makePlotly(gv, yv) {
         let data = loadGraphData(gv);
-        const yearList = ['2020', '2021', '2022']
+        const yearList = years
         let catListA = ["Overall Poverty Rate",
             "Child (Under 18) Poverty Rate",
             "Adult (18-64) Poverty Rate",
@@ -265,7 +266,7 @@
         let geography = document.getElementById('geography');
         let yv = year.value;
         if (yv === '') {
-            yv = 2020;
+            yv = 2019;
         }
         let gv = geography.value;
         if (gv === '') {
