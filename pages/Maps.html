@@ -79,7 +79,8 @@
 </nav>
 <label for="year">Year:</label>
 <select id="year" onchange="redrawMap()">
-    <option value="2020" selected="selected">2020</option>
+    <option value="2019" selected="selected">2019</option>
+    <option value="2020">2020</option>
     <option value="2021">2021</option>
     <option value="2022">2022</option>
 </select>
@@ -110,7 +111,7 @@
         fig = f
         Plotly.d3.json("../data/maps/Race_Poverty.json", function (d) {
             dat = d
-            drawMap(dat, fig, '2020');
+            drawMap(dat, fig, '2019');
             loadTableData(dat);
         })
     })
@@ -276,7 +277,7 @@
             return x;
         }
         if (x <= 100) {
-            return x + '%';
+            return Math.round(x * 10) / 10 + '%';
         }
         return x;
     }
