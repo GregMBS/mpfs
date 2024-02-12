@@ -43,7 +43,7 @@
     </div>
 </nav>
 <label for="year">Year: </label>
-<select id="year" onchange="loadData()">
+<select id="year" onchange="reloadData()">
     <option value="2020" selected="selected">2020</option>
     <option value="2021">2021</option>
     <option value="2022">2022</option>
@@ -105,10 +105,7 @@
                 grid: {rows: 2, columns: 2}
             };
         }
-        Plotly.newPlot('pie0', data, layout);
-        // Plotly.newPlot('pie1', data[1], layout[1]);
-        // Plotly.newPlot('pie2', data[2], layout[2]);
-        // Plotly.newPlot('pie3', data[3], layout[3]);
+        return [data, layout];
     }
 
     function loadData() {
@@ -118,9 +115,15 @@
                 .json(url)
                 .then(function (data) {
                     json[yv] = data;
-                    loadPies();
+                    let [d,l] = loadPies();
+                    Plotly.newPlot('pie0', d, l);
                 });
         })
+    }
+
+    function reloadData() {
+        let [d,l] = loadPies();
+        Plotly.react('pie0', d, l);
     }
 
     loadData();

@@ -1,0 +1,57 @@
+[
+  {
+    "2019 Poverty Rate": "United States",
+    "Overall": "12.30%",
+    "Under 18": "16.80%",
+    "18-64": "12.90%",
+    "Over 65": "9.40%",
+    "Non-Hispanic White": "9.00%",
+    "Non-Hispanic": "21.20%",
+    "Latino": "17.20%",
+    "Asian": "9.20%"
+  },
+  {
+    "2019 Poverty Rate": "Tennessee",
+    "Overall": "13.90%",
+    "Under 18": "19.70%",
+    "18-64": "12.90%",
+    "Over 65": "9.70%",
+    "Non-Hispanic White": "11.20%",
+    "Non-Hispanic": "21.50%",
+    "Latino": "23.60%",
+    "Asian": "9.40%"
+  },
+  {
+    "2019 Poverty Rate": "Shelby County",
+    "Overall": "16.80%",
+    "Under 18": "25.90%",
+    "18-64": "14.30%",
+    "Over 65": "11.80%",
+    "Non-Hispanic White": "6.80%",
+    "Non-Hispanic": "23.00%",
+    "Latino": "24.50%",
+    "Asian": "N/A"
+  },
+  {
+    "2019 Poverty Rate": "Memphis city, Tennessee",
+    "Overall": "21.70%",
+    "Under 18": "35.00%",
+    "18-64": "18.30%",
+    "Over 65": "14.10%",
+    "Non-Hispanic White": "9.30%",
+    "Non-Hispanic": "26.10%",
+    "Latino": "29.20%",
+    "Asian": "N/A"
+  },
+  {
+    "2019 Poverty Rate": "Memphis, TN-MS-AR Metro",
+    "Overall": "15.40%",
+    "Under 18": "23.70%",
+    "18-64": "13.10%",
+    "Over 65": "10.70%",
+    "Non-Hispanic White": "6.90%",
+    "Non-Hispanic": "22.60%",
+    "Latino": "21.90%",
+    "Asian": "N/A"
+  }
+]
