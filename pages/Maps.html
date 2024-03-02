@@ -164,6 +164,7 @@
         let rData = year + '_Race';
         let i = 0;
         let zx = [];
+        /** @param {{ZIP: string}} d[] **/
         d.forEach((row) => {
                 if (row.ZIP !== 'ZIP') {
                     idp.push("p"+i);
@@ -178,7 +179,7 @@
                 i++;
         })
 
-        var counties1 = [{
+        let counties1 = [{
             type: 'choropleth',
             geojson: f,
             featureidkey: 'properties.GEOID20',
@@ -193,7 +194,7 @@
             }
         }];
 
-        var counties1a = [{
+        let counties1a = [{
             type: 'scattergeo',
             geojson: f,
             featureidkey: 'properties.GEOID20',
@@ -206,7 +207,7 @@
             text: zx
         }];
 
-        var counties2 = [{
+        let counties2 = [{
             type: 'choropleth',
             geojson: f,
             featureidkey: 'properties.GEOID20',
@@ -221,7 +222,7 @@
             }
         }];
 
-        var counties2a = [{
+        let counties2a = [{
             type: 'scattergeo',
             geojson: f,
             featureidkey: 'properties.GEOID20',
@@ -234,7 +235,7 @@
             text: zx
         }];
 
-        var pMapLayout = {
+        let pMapLayout = {
             title: year + ' Poverty ZIP Code',
             geo: {
                 fitbounds: 'locations'
@@ -242,7 +243,7 @@
             dragmode: false
         };
 
-        var rMapLayout = {
+        let rMapLayout = {
             title: year + ' Race ZIP Code',
             geo: {
                 fitbounds: 'locations'
