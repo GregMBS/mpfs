@@ -1,0 +1,194 @@
+[
+ {
+  "Category": "Overall Poverty Rate",
+  "Year": 2023,
+  "Geography": "United States",
+  "Overall": "12.5%",
+  "Non-Hispanic White": "9.4%",
+  "Black": "20.8%",
+  "Latino or Hispanic": "16.6%",
+  "Asian": "9.9%",
+  "Native American": "20.6%"
+ },
+ {
+  "Category": "Child (Under 18) Poverty Rate",
+  "Year": 2023,
+  "Geography": "United States",
+  "Overall": "16%",
+  "Non-Hispanic White": "10%",
+  "Black": "29.3%",
+  "Latino or Hispanic": "21.6%",
+  "Asian": "10%",
+  "Native American": "26.7%"
+ },
+ {
+  "Category": "Adult (18-64) Poverty Rate",
+  "Year": 2023,
+  "Geography": "United States",
+  "Overall": "11.5%",
+  "Non-Hispanic White": "9.4%",
+  "Black": "17.9%",
+  "Latino or Hispanic": "14.1%",
+  "Asian": "9.1%",
+  "Native American": "18.6%"
+ },
+ {
+  "Category": "Senior (65+) Poverty Rate",
+  "Year": 2023,
+  "Geography": "United States",
+  "Overall": "11.3%",
+  "Non-Hispanic White": "9.1%",
+  "Black": "19.3%",
+  "Latino or Hispanic": "18.2%",
+  "Asian": "13.5%",
+  "Native American": "18.3%"
+ },
+ {
+  "Category": "Overall Poverty Rate",
+  "Year": 2023,
+  "Geography": "Tennessee",
+  "Overall": "14%",
+  "Non-Hispanic White": "11.5%",
+  "Black": "22.6%",
+  "Latino or Hispanic": "20.5%",
+  "Asian": "7.7%"
+ },
+ {
+  "Category": "Child (Under 18) Poverty Rate",
+  "Year": 2023,
+  "Geography": "Tennessee",
+  "Overall": "19.7%",
+  "Non-Hispanic White": "14.3%",
+  "Black": "34.8%",
+  "Latino or Hispanic": "27.7%",
+  "Asian": "5.6%"
+ },
+ {
+  "Category": "Adult (18-64) Poverty Rate",
+  "Year": 2023,
+  "Geography": "Tennessee",
+  "Overall": "12.5%",
+  "Non-Hispanic White": "10.8%",
+  "Black": "18.2%",
+  "Latino or Hispanic": "16.5%",
+  "Asian": "8.6%"
+ },
+ {
+  "Category": "Senior (65+) Poverty Rate",
+  "Year": 2023,
+  "Geography": "Tennessee",
+  "Overall": "12.2%",
+  "Non-Hispanic White": "10.9%",
+  "Black": "20.6%",
+  "Latino or Hispanic": "15%",
+  "Asian": "5.7%"
+ },
+ {
+  "Category": "Overall Poverty Rate",
+  "Year": 2023,
+  "Geography": "Shelby County",
+  "Overall": "17.7%",
+  "Non-Hispanic White": "6.7%",
+  "Black": "24.4%",
+  "Latino or Hispanic": "20.8%"
+ },
+ {
+  "Category": "Child (Under 18) Poverty Rate",
+  "Year": 2023,
+  "Geography": "Shelby County",
+  "Overall": "28%",
+  "Non-Hispanic White": "5.2%",
+  "Black": "39.2%",
+  "Latino or Hispanic": "25.7%"
+ },
+ {
+  "Category": "Adult (18-64) Poverty Rate",
+  "Year": 2023,
+  "Geography": "Shelby County",
+  "Overall": "14.5%",
+  "Non-Hispanic White": "6.7%",
+  "Black": "19.2%",
+  "Latino or Hispanic": "17.8%"
+ },
+ {
+  "Category": "Senior (65+) Poverty Rate",
+  "Year": 2023,
+  "Geography": "Shelby County",
+  "Overall": "12.9%",
+  "Non-Hispanic White": "8.1%",
+  "Black": "18.8%",
+  "Latino or Hispanic": "11%"
+ },
+ {
+  "Category": "Overall Poverty Rate",
+  "Year": 2023,
+  "Geography": "City of Memphis",
+  "Overall": "22.6%",
+  "Non-Hispanic White": "8.9%",
+  "Black": "27.1%",
+  "Latino or Hispanic": "26%"
+ },
+ {
+  "Category": "Child (Under 18) Poverty Rate",
+  "Year": 2023,
+  "Geography": "City of Memphis",
+  "Overall": "36.3%",
+  "Non-Hispanic White": "10.4%",
+  "Black": "43%",
+  "Latino or Hispanic": "33.1%"
+ },
+ {
+  "Category": "Adult (18-64) Poverty Rate",
+  "Year": 2023,
+  "Geography": "City of Memphis",
+  "Overall": "18.3%",
+  "Non-Hispanic White": "12.3%",
+  "Black": "21.4%",
+  "Latino or Hispanic": "21.7%"
+ },
+ {
+  "Category": "Senior (65+) Poverty Rate",
+  "Year": 2023,
+  "Geography": "City of Memphis",
+  "Overall": "16.1%",
+  "Non-Hispanic White": "11.3%",
+  "Black": "20.2%",
+  "Latino or Hispanic": "9%"
+ },
+ {
+  "Category": "Overall Poverty Rate",
+  "Year": 2023,
+  "Geography": "Memphis MSA",
+  "Overall": "16.5%",
+  "Non-Hispanic White": "8.1%",
+  "Black": "24.3%",
+  "Latino or Hispanic": "18.4%"
+ },
+ {
+  "Category": "Child (Under 18) Poverty Rate",
+  "Year": 2023,
+  "Geography": "Memphis MSA",
+  "Overall": "25.8%",
+  "Non-Hispanic White": "7.6%",
+  "Black": "39.7%",
+  "Latino or Hispanic": "22.2%"
+ },
+ {
+  "Category": "Adult (18-64) Poverty Rate",
+  "Year": 2023,
+  "Geography": "Memphis MSA",
+  "Overall": "13.6%",
+  "Non-Hispanic White": "8%",
+  "Black": "18.8%",
+  "Latino or Hispanic": "16.5%"
+ },
+ {
+  "Category": "Senior (65+) Poverty Rate",
+  "Year": 2023,
+  "Geography": "Memphis MSA",
+  "Overall": "12.9%",
+  "Non-Hispanic White": "8%",
+  "Black": "19.7%",
+  "Latino or Hispanic": "8%"
+ }
+]
