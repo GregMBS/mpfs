@@ -1,0 +1,442 @@
+[
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US35620",
+      "NAME": "New York-Newark-Jersey City, NY-NJ Metro Area",
+      "POP": 19170616,
+      "OVERALL": 12.8,
+      "CHILD": 16.7
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US31080",
+      "NAME": "Los Angeles-Long Beach-Anaheim, CA Metro Area",
+      "POP": 12605374,
+      "OVERALL": 12.6,
+      "CHILD": 16
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US16980",
+      "NAME": "Chicago-Naperville-Elgin, IL-IN Metro Area",
+      "POP": 9114141,
+      "OVERALL": 11,
+      "CHILD": 14.2
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US19100",
+      "NAME": "Dallas-Fort Worth-Arlington, TX Metro Area",
+      "POP": 8000405,
+      "OVERALL": 10.3,
+      "CHILD": 13.3
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US26420",
+      "NAME": "Houston-Pasadena-The Woodlands, TX Metro Area",
+      "POP": 7414627,
+      "OVERALL": 13.9,
+      "CHILD": 19.3
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US12060",
+      "NAME": "Atlanta-Sandy Springs-Roswell, GA Metro Area",
+      "POP": 6210398,
+      "OVERALL": 11,
+      "CHILD": 14.9
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US47900",
+      "NAME": "Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",
+      "POP": 6199632,
+      "OVERALL": 7.9,
+      "CHILD": 9
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US33100",
+      "NAME": "Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",
+      "POP": 6099313,
+      "OVERALL": 12.8,
+      "CHILD": 16.2
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US37980",
+      "NAME": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",
+      "POP": 6091138,
+      "OVERALL": 11.5,
+      "CHILD": 14.5
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US38060",
+      "NAME": "Phoenix-Mesa-Chandler, AZ Metro Area",
+      "POP": 4984909,
+      "OVERALL": 10.9,
+      "CHILD": 13.3
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US14460",
+      "NAME": "Boston-Cambridge-Newton, MA-NH Metro Area",
+      "POP": 4769717,
+      "OVERALL": 9,
+      "CHILD": 9.6
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US40140",
+      "NAME": "Riverside-San Bernardino-Ontario, CA Metro Area",
+      "POP": 4617293,
+      "OVERALL": 12.1,
+      "CHILD": 15.7
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US41860",
+      "NAME": "San Francisco-Oakland-Fremont, CA Metro Area",
+      "POP": 4503270,
+      "OVERALL": 9.2,
+      "CHILD": 9
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US19820",
+      "NAME": "Detroit-Warren-Dearborn, MI Metro Area",
+      "POP": 4300042,
+      "OVERALL": 13.6,
+      "CHILD": 19.3
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US42660",
+      "NAME": "Seattle-Tacoma-Bellevue, WA Metro Area",
+      "POP": 3980642,
+      "OVERALL": 9,
+      "CHILD": 11.1
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US33460",
+      "NAME": "Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",
+      "POP": 3652522,
+      "OVERALL": 8.1,
+      "CHILD": 9
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US45300",
+      "NAME": "Tampa-St. Petersburg-Clearwater, FL Metro Area",
+      "POP": 3282970,
+      "OVERALL": 12,
+      "CHILD": 14
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US41740",
+      "NAME": "San Diego-Chula Vista-Carlsbad, CA Metro Area",
+      "POP": 3169132,
+      "OVERALL": 10.1,
+      "CHILD": 11.4
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US19740",
+      "NAME": "Denver-Aurora-Centennial, CO Metro Area",
+      "POP": 2974554,
+      "OVERALL": 8.6,
+      "CHILD": 11.3
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US12580",
+      "NAME": "Baltimore-Columbia-Towson, MD Metro Area",
+      "POP": 2771001,
+      "OVERALL": 9.9,
+      "CHILD": 10.6
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US16740",
+      "NAME": "Charlotte-Concord-Gastonia, NC-SC Metro Area",
+      "POP": 2766606,
+      "OVERALL": 10.7,
+      "CHILD": 15
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US36740",
+      "NAME": "Orlando-Kissimmee-Sanford, FL Metro Area",
+      "POP": 2766128,
+      "OVERALL": 11.3,
+      "CHILD": 13.1
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US41180",
+      "NAME": "St. Louis, MO-IL Metro Area",
+      "POP": 2731323,
+      "OVERALL": 10.4,
+      "CHILD": 13.1
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US41700",
+      "NAME": "San Antonio-New Braunfels, TX Metro Area",
+      "POP": 2657706,
+      "OVERALL": 13.6,
+      "CHILD": 18
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US38900",
+      "NAME": "Portland-Vancouver-Hillsboro, OR-WA Metro Area",
+      "POP": 2478047,
+      "OVERALL": 9.2,
+      "CHILD": 8.7
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US12420",
+      "NAME": "Austin-Round Rock-San Marcos, TX Metro Area",
+      "POP": 2429606,
+      "OVERALL": 9.5,
+      "CHILD": 10.6
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US40900",
+      "NAME": "Sacramento-Roseville-Folsom, CA Metro Area",
+      "POP": 2389736,
+      "OVERALL": 10.8,
+      "CHILD": 11.1
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US38300",
+      "NAME": "Pittsburgh, PA Metro Area",
+      "POP": 2360069,
+      "OVERALL": 11.5,
+      "CHILD": 15.3
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US29820",
+      "NAME": "Las Vegas-Henderson-North Las Vegas, NV Metro Area",
+      "POP": 2313342,
+      "OVERALL": 12.7,
+      "CHILD": 17.7
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US17140",
+      "NAME": "Cincinnati, OH-KY-IN Metro Area",
+      "POP": 2225732,
+      "OVERALL": 10.9,
+      "CHILD": 13
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US28140",
+      "NAME": "Kansas City, MO-KS Metro Area",
+      "POP": 2189566,
+      "OVERALL": 9,
+      "CHILD": 10.6
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US18140",
+      "NAME": "Columbus, OH Metro Area",
+      "POP": 2123171,
+      "OVERALL": 12.4,
+      "CHILD": 16.1
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US17410",
+      "NAME": "Cleveland, OH Metro Area",
+      "POP": 2115841,
+      "OVERALL": 13.6,
+      "CHILD": 19.9
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US26900",
+      "NAME": "Indianapolis-Carmel-Greenwood, IN Metro Area",
+      "POP": 2100837,
+      "OVERALL": 10.6,
+      "CHILD": 13.3
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US34980",
+      "NAME": "Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",
+      "POP": 2061287,
+      "OVERALL": 9.5,
+      "CHILD": 13.1
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US41980",
+      "NAME": "San Juan-Bayamón-Caguas, PR Metro Area",
+      "POP": 2022976,
+      "OVERALL": 36.5,
+      "CHILD": 51.1
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US41940",
+      "NAME": "San Jose-Sunnyvale-Santa Clara, CA Metro Area",
+      "POP": 1908696,
+      "OVERALL": 7.5,
+      "CHILD": 7.5
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US47260",
+      "NAME": "Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",
+      "POP": 1730513,
+      "OVERALL": 11.5,
+      "CHILD": 15.8
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US27260",
+      "NAME": "Jacksonville, FL Metro Area",
+      "POP": 1683124,
+      "OVERALL": 11.7,
+      "CHILD": 14.7
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US39300",
+      "NAME": "Providence-Warwick, RI-MA Metro Area",
+      "POP": 1624414,
+      "OVERALL": 11.6,
+      "CHILD": 15.8
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US33340",
+      "NAME": "Milwaukee-Waukesha, WI Metro Area",
+      "POP": 1537949,
+      "OVERALL": 12.3,
+      "CHILD": 16.3
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US39580",
+      "NAME": "Raleigh-Cary, NC Metro Area",
+      "POP": 1485319,
+      "OVERALL": 7.8,
+      "CHILD": 9
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US36420",
+      "NAME": "Oklahoma City, OK Metro Area",
+      "POP": 1443688,
+      "OVERALL": 14.1,
+      "CHILD": 18.7
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US31140",
+      "NAME": "Louisville/Jefferson County, KY-IN Metro Area",
+      "POP": 1340767,
+      "OVERALL": 13.5,
+      "CHILD": 18.4
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US32820",
+      "NAME": "Memphis, TN-MS-AR Metro Area",
+      "POP": 1314150,
+      "OVERALL": 16.5,
+      "CHILD": 25.8
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US40060",
+      "NAME": "Richmond, VA Metro Area",
+      "POP": 1312030,
+      "OVERALL": 9.9,
+      "CHILD": 13.2
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US41620",
+      "NAME": "Salt Lake City-Murray, UT Metro Area",
+      "POP": 1251536,
+      "OVERALL": 9.3,
+      "CHILD": 10.7
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US13820",
+      "NAME": "Birmingham, AL Metro Area",
+      "POP": 1156089,
+      "OVERALL": 13.9,
+      "CHILD": 18.5
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US23420",
+      "NAME": "Fresno, CA Metro Area",
+      "POP": 1152325,
+      "OVERALL": 17.9,
+      "CHILD": 24.1
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US24340",
+      "NAME": "Grand Rapids-Wyoming-Kentwood, MI Metro Area",
+      "POP": 1135552,
+      "OVERALL": 10.3,
+      "CHILD": 12.2
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US15380",
+      "NAME": "Buffalo-Cheektowaga, NY Metro Area",
+      "POP": 1128252,
+      "OVERALL": 14.2,
+      "CHILD": 19
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US25540",
+      "NAME": "Hartford-West Hartford-East Hartford, CT Metro Area",
+      "POP": 1112423,
+      "OVERALL": 9.4,
+      "CHILD": 10.9
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US46060",
+      "NAME": "Tucson, AZ Metro Area",
+      "POP": 1032664,
+      "OVERALL": 13.7,
+      "CHILD": 17.5
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US46140",
+      "NAME": "Tulsa, OK Metro Area",
+      "POP": 1024211,
+      "OVERALL": 14.4,
+      "CHILD": 18.9
+    },
+    {
+      "YEAR": 2023,
+      "GEO_ID": "310M700US40380",
+      "NAME": "Rochester, NY Metro Area",
+      "POP": 1016833,
+      "OVERALL": 12.1,
+      "CHILD": 15.6
+    }
+]
