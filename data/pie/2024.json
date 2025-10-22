@@ -1,0 +1,57 @@
+[
+  {
+    "2024 Poverty Rate": "United States",
+    "Overall": "12.1",
+    "Under 18": "15.5",
+    "18-64": "11.2",
+    "Over 65": "11.2",
+    "White": "9.1",
+    "Black": "20.3",
+    "Latino": "16.2",
+    "Asian": "9.7"
+  },
+  {
+    "2024 Poverty Rate": "Tennessee",
+    "Overall": "13.5",
+    "Under 18": "19.1",
+    "18-64": "12.2",
+    "Over 65": "10.7",
+    "White": "10.7",
+    "Black": "22.7",
+    "Latino": "20.6",
+    "Asian": "9.0"
+  },
+  {
+    "2024 Poverty Rate": "Shelby County",
+    "Overall": "19.0",
+    "Under 18": "31.3",
+    "18-64": "15.4",
+    "Over 65": "12.8",
+    "White": "8.0",
+    "Black": "25.0",
+    "Latino": "28.2",
+    "Asian": "10.9"
+  },
+  {
+    "2024 Poverty Rate": "Memphis city, Tennessee",
+    "Overall": "24.0",
+    "Under 18": "38.8",
+    "18-64": "19.6",
+    "Over 65": "16.6",
+    "White": "10.8",
+    "Black": "27.9",
+    "Latino": "34.2",
+    "Asian": "22.6"
+  },
+  {
+    "2024 Poverty Rate": "Memphis, TN-MS-AR Metro",
+    "Overall": "17.4",
+    "Under 18": "27.8",
+    "18-64": "14.4",
+    "Over 65": "12.6",
+    "White": "7.9",
+    "Black": "25.2",
+    "Latino": "24.2",
+    "Asian": "10.4"
+  }
+]
