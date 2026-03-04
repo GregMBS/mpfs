@@ -1,0 +1,298 @@
+[
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US3651000",
+    "NAME": "New York city, New York",
+    "POP": 8331991,
+    "OVERALL": 18,
+    "CHILD": 24.2
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0644000",
+    "NAME": "Los Angeles city, California",
+    "POP": 3797008,
+    "OVERALL": 16,
+    "CHILD": 20.5
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US1714000",
+    "NAME": "Chicago city, Illinois",
+    "POP": 2668070,
+    "OVERALL": 16.6,
+    "CHILD": 22.7
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4835000",
+    "NAME": "Houston city, Texas",
+    "POP": 2350455,
+    "OVERALL": 21.2,
+    "CHILD": 31.1
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0455000",
+    "NAME": "Phoenix city, Arizona",
+    "POP": 1644399,
+    "OVERALL": 12,
+    "CHILD": 16.6
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4260000",
+    "NAME": "Philadelphia city, Pennsylvania",
+    "POP": 1530732,
+    "OVERALL": 19.7,
+    "CHILD": 27.1
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4865000",
+    "NAME": "San Antonio city, Texas",
+    "POP": 1492636,
+    "OVERALL": 17.1,
+    "CHILD": 22.3
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0666000",
+    "NAME": "San Diego city, California",
+    "POP": 1353145,
+    "OVERALL": 10.4,
+    "CHILD": 10.5
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4819000",
+    "NAME": "Dallas city, Texas",
+    "POP": 1307252,
+    "OVERALL": 13.9,
+    "CHILD": 18.7
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4827000",
+    "NAME": "Fort Worth city, Texas",
+    "POP": 998724,
+    "OVERALL": 13.1,
+    "CHILD": 15.8
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US1235000",
+    "NAME": "Jacksonville city, Florida",
+    "POP": 990873,
+    "OVERALL": 12.3,
+    "CHILD": 15
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0668000",
+    "NAME": "San Jose city, California",
+    "POP": 984916,
+    "OVERALL": 8.1,
+    "CHILD": 7.8
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4805000",
+    "NAME": "Austin city, Texas",
+    "POP": 972973,
+    "OVERALL": 11.8,
+    "CHILD": 15.4
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US3712000",
+    "NAME": "Charlotte city, North Carolina",
+    "POP": 927553,
+    "OVERALL": 11.9,
+    "CHILD": 16.4
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US3918000",
+    "NAME": "Columbus city, Ohio",
+    "POP": 905376,
+    "OVERALL": 17.2,
+    "CHILD": 22.4
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US1836003",
+    "NAME": "Indianapolis city (balance), Indiana",
+    "POP": 873412,
+    "OVERALL": 15.8,
+    "CHILD": 23.4
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0667000",
+    "NAME": "San Francisco city, California",
+    "POP": 813938,
+    "OVERALL": 11.3,
+    "CHILD": 8.1
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US5363000",
+    "NAME": "Seattle city, Washington",
+    "POP": 761207,
+    "OVERALL": 9.4,
+    "CHILD": 8.1
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0820000",
+    "NAME": "Denver city, Colorado",
+    "POP": 717665,
+    "OVERALL": 12.1,
+    "CHILD": 19.1
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4055000",
+    "NAME": "Oklahoma City city, Oklahoma",
+    "POP": 702746,
+    "OVERALL": 15.3,
+    "CHILD": 21.3
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4752006",
+    "NAME": "Nashville-Davidson metropolitan government (balance), Tennessee",
+    "POP": 682576,
+    "OVERALL": 12.1,
+    "CHILD": 16.6
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4824000",
+    "NAME": "El Paso city, Texas",
+    "POP": 674455,
+    "OVERALL": 18.3,
+    "CHILD": 24.4
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US3240000",
+    "NAME": "Las Vegas city, Nevada",
+    "POP": 673262,
+    "OVERALL": 13.9,
+    "CHILD": 20.9
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US1150000",
+    "NAME": "Washington city, District of Columbia",
+    "POP": 673210,
+    "OVERALL": 17.3,
+    "CHILD": 28.3
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US2622000",
+    "NAME": "Detroit city, Michigan",
+    "POP": 636074,
+    "OVERALL": 34.5,
+    "CHILD": 51.1
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US2507000",
+    "NAME": "Boston city, Massachusetts",
+    "POP": 628530,
+    "OVERALL": 16.5,
+    "CHILD": 23.5
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US2148006",
+    "NAME": "Louisville/Jefferson County metro government (balance), Kentucky",
+    "POP": 626692,
+    "OVERALL": 15.5,
+    "CHILD": 21.8
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4159000",
+    "NAME": "Portland city, Oregon",
+    "POP": 623289,
+    "OVERALL": 13,
+    "CHILD": 11.6
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US4748000",
+    "NAME": "Memphis city, Tennessee",
+    "POP": 598148,
+    "OVERALL": 24,
+    "CHILD": 38.8
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US3502000",
+    "NAME": "Albuquerque city, New Mexico",
+    "POP": 552422,
+    "OVERALL": 14.7,
+    "CHILD": 18.9
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US2404000",
+    "NAME": "Baltimore city, Maryland",
+    "POP": 548862,
+    "OVERALL": 17.7,
+    "CHILD": 22.2
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US5553000",
+    "NAME": "Milwaukee city, Wisconsin",
+    "POP": 547619,
+    "OVERALL": 21.2,
+    "CHILD": 30.3
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0627000",
+    "NAME": "Fresno city, California",
+    "POP": 541873,
+    "OVERALL": 18.7,
+    "CHILD": 26.7
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0477000",
+    "NAME": "Tucson city, Arizona",
+    "POP": 530245,
+    "OVERALL": 18.1,
+    "CHILD": 21.3
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0664000",
+    "NAME": "Sacramento city, California",
+    "POP": 526875,
+    "OVERALL": 12.2,
+    "CHILD": 16
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US0446000",
+    "NAME": "Mesa city, Arizona",
+    "POP": 512932,
+    "OVERALL": 10.8,
+    "CHILD": 14.7
+  },
+  {
+    "YEAR": 2024,
+    "GEO_ID": "1600000US2938000",
+    "NAME": "Kansas City city, Missouri",
+    "POP": 508331,
+    "OVERALL": 15.7,
+    "CHILD": 21.7
+  }
+]
